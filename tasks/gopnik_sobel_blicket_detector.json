@@ -6,7 +6,9 @@
       "choices": {
         "1": "Block A",
         "2": "Block B"
-      }
+      },
+      "answer": "Block A",
+      "answer_index": 1
     }
   ]
 }
