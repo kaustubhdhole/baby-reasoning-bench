@@ -1,0 +1,9 @@
+{
+  "name": "category-based-induction",
+  "qas": [
+    {
+      "question": "A robin has a special food called 'dax' to feed its babies. Which is more likely to also use dax: a sparrow (another bird) or a butterfly (looks similar but is an insect)?",
+      "answer": "The sparrow, because it is also a bird."
+    }
+  ]
+}

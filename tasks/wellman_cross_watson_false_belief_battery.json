@@ -1,0 +1,9 @@
+{
+  "name": "false-belief-vignette-battery",
+  "qas": [
+    {
+      "question": "A child opens a candy box and finds pencils inside. Later, another child who has not seen inside the box comes in. What will the second child think is in the box?",
+      "answer": "The second child will think the box contains candy."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "story-analogy-relational-shift",
+  "qas": [
+    {
+      "question": "Base story: A small knight cannot lift a heavy gate alone, so he asks two friends to lift together. New story: A small robot cannot move a heavy crate alone. What should the robot do to solve the problem?",
+      "answer": "It should ask two helpers to lift the crate together, matching the relational solution."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "false-belief-unexpected-transfer",
+  "qas": [
+    {
+      "question": "Sally puts her marble in a basket and leaves. Anne moves the marble to a box while Sally is gone. When Sally returns, where will she look for the marble first?",
+      "answer": "She will look in the basket where she last left it."
+    }
+  ]
+}

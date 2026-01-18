@@ -1,0 +1,9 @@
+{
+  "name": "false-belief-sally-anne",
+  "qas": [
+    {
+      "question": "In a puppet show, Sally hides a toy in her bag and leaves. Anne moves it to her own box. Where will Sally search when she comes back?",
+      "answer": "Sally will search in her bag, where she believes it still is."
+    }
+  ]
+}

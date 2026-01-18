@@ -1,0 +1,9 @@
+{
+  "name": "exploratory-play-causal",
+  "qas": [
+    {
+      "question": "A toy lights up sometimes, but you are not sure which buttons cause it. What is a good way to find out?",
+      "answer": "Test one button at a time to see which one makes the toy light up."
+    }
+  ]
+}

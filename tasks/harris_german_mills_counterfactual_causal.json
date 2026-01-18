@@ -1,0 +1,9 @@
+{
+  "name": "simple-counterfactual-causal",
+  "qas": [
+    {
+      "question": "A doll walked on the floor with muddy shoes and the floor got dirty. If she had taken off her shoes, what would the floor be like?",
+      "answer": "The floor would be clean."
+    }
+  ]
+}

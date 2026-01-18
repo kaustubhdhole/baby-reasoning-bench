@@ -1,0 +1,9 @@
+{
+  "name": "simple-causal-analogy",
+  "qas": [
+    {
+      "question": "Chocolate melts in the heat. Snowman melts in the heat. What does ice do in the heat?",
+      "answer": "It melts (turns to water)."
+    }
+  ]
+}
