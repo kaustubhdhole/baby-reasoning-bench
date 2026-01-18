@@ -1,0 +1,9 @@
+{
+  "name": "conservation-of-number-accidental",
+  "qas": [
+    {
+      "question": "There are two rows of 5 checkers each. A teddy accidentally spreads one row out. Are there more checkers in the spread-out row or the same number?",
+      "answer": "The same number, because spreading them out does not change the count."
+    }
+  ]
+}

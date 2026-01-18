@@ -1,0 +1,9 @@
+{
+  "name": "transitive-inference",
+  "qas": [
+    {
+      "question": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest?",
+      "answer": "Stick A is the longest."
+    }
+  ]
+}

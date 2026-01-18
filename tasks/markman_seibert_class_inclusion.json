@@ -1,0 +1,9 @@
+{
+  "name": "class-inclusion-wording",
+  "qas": [
+    {
+      "question": "In this set there are 3 dogs and 2 cats. Are there more dogs or more animals in this set?",
+      "answer": "There are more animals, because animals include both dogs and cats."
+    }
+  ]
+}

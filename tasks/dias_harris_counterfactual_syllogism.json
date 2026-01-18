@@ -1,0 +1,9 @@
+{
+  "name": "counterfactual-syllogism-pretend",
+  "qas": [
+    {
+      "question": "In a pretend world where all bears can fly, and Teddy is a bear, can Teddy fly?",
+      "answer": "Yes, in that pretend world Teddy can fly."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "counterfactual-possibilities",
+  "qas": [
+    {
+      "question": "The picnic was canceled because it rained. If it had not rained, what could have happened instead?",
+      "answer": "The picnic could have gone ahead as planned."
+    }
+  ]
+}

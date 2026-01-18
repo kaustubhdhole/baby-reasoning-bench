@@ -1,0 +1,9 @@
+{
+  "name": "control-of-variables-strategy",
+  "qas": [
+    {
+      "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test?",
+      "answer": "Change only the ball's weight and keep all other factors the same."
+    }
+  ]
+}
