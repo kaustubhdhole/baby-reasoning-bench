@@ -2,8 +2,13 @@
   "name": "class-inclusion-wording",
   "qas": [
     {
-      "question": "In this set there are 3 dogs and 2 cats. Are there more dogs or more animals in this set?",
-      "answer": "There are more animals, because animals include both dogs and cats."
+      "question": "In this set there are 3 dogs and 2 cats. Are there more dogs or more animals in this set? Choose: X=more dogs, Y=more animals, Both=the same number.",
+      "choices": [
+        "X",
+        "Y",
+        "Both"
+      ],
+      "answer_index": 1
     }
   ]
 }

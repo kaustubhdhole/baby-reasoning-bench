@@ -2,8 +2,13 @@
   "name": "exploratory-play-causal",
   "qas": [
     {
-      "question": "A toy lights up sometimes, but you are not sure which buttons cause it. What is a good way to find out?",
-      "answer": "Test one button at a time to see which one makes the toy light up."
+      "question": "A toy lights up sometimes, but you are not sure which buttons cause it. What is a good way to find out? Choose: X=press all buttons at once, Y=test one button at a time, Both=press all and one at a time.",
+      "choices": [
+        "X",
+        "Y",
+        "Both"
+      ],
+      "answer_index": 1
     }
   ]
 }

@@ -2,8 +2,13 @@
   "name": "analogical-problem-solving",
   "qas": [
     {
-      "question": "Story hint: A farmer moved a huge rock by rolling it on logs. New problem: A child needs to move a heavy box across the floor. What should the child do?",
-      "answer": "Roll the box on something like logs or wheels to reduce friction and move it."
+      "question": "Story hint: A farmer moved a huge rock by rolling it on logs. New problem: A child needs to move a heavy box across the floor. What should the child do? Choose: X=carry the box alone, Y=roll it on something like logs or wheels, Both=drag it and roll it.",
+      "choices": [
+        "X",
+        "Y",
+        "Both"
+      ],
+      "answer_index": 1
     }
   ]
 }

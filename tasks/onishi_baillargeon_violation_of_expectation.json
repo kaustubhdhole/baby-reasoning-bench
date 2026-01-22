@@ -2,8 +2,13 @@
   "name": "violation-of-expectation-false-belief",
   "qas": [
     {
-      "question": "An actor watches a toy go into a green box, then leaves. While she is gone, the toy is moved to a yellow box. When she returns, which box will she open first?",
-      "answer": "She will open the green box first, based on her false belief."
+      "question": "An actor watches a toy go into a green box, then leaves. While she is gone, the toy is moved to a yellow box. When she returns, which box will she open first? Choose: X=yellow box, Y=green box, Both=both boxes.",
+      "choices": [
+        "X",
+        "Y",
+        "Both"
+      ],
+      "answer_index": 1
     }
   ]
 }
