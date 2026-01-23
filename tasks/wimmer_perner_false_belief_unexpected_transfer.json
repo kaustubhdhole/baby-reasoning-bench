@@ -9,6 +9,96 @@
         "both places"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "Maya puts her doll in a pink box and leaves. Eli moves it to a blue box. When Maya comes back, where will she look first?",
+      "choices": [
+        "blue box",
+        "pink box",
+        "both boxes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Liam puts his truck in a basket and leaves. It is moved to a shelf. When Liam returns, where will he look first?",
+      "choices": [
+        "shelf",
+        "basket",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Emma puts her book in a bag and leaves. It is moved to a drawer. When she comes back, where will she look first?",
+      "choices": [
+        "drawer",
+        "bag",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Jack puts his marble in a cup and leaves. It is moved to a bowl. When Jack returns, where will he look first?",
+      "choices": [
+        "bowl",
+        "cup",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Ava puts her sticker in a box and leaves. It is moved to a backpack. When Ava returns, where will she look first?",
+      "choices": [
+        "backpack",
+        "box",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Noah puts his ball in a drawer and leaves. It is moved to a bin. When Noah returns, where will he look first?",
+      "choices": [
+        "bin",
+        "drawer",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Olivia puts her ring in a purse and leaves. It is moved to a pocket. When Olivia returns, where will she look first?",
+      "choices": [
+        "pocket",
+        "purse",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Ethan puts his toy in a chest and leaves. It is moved to a closet. When Ethan returns, where will he look first?",
+      "choices": [
+        "closet",
+        "chest",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Sophia puts her hat in a basket and leaves. It is moved to a chair. When Sophia returns, where will she look first?",
+      "choices": [
+        "chair",
+        "basket",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Mason puts his toy in a box and leaves. It is moved to a shelf. When Mason returns, where will he look first?",
+      "choices": [
+        "shelf",
+        "box",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

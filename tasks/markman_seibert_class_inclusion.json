@@ -9,6 +9,96 @@
         "the same number"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "There are 4 apples and 1 banana. Are there more apples or more fruit?",
+      "choices": [
+        "more apples",
+        "more fruit",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 2 trucks and 3 cars. Are there more trucks or more vehicles?",
+      "choices": [
+        "more trucks",
+        "more vehicles",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 5 birds and 2 fish. Are there more birds or more animals?",
+      "choices": [
+        "more birds",
+        "more animals",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 6 socks and 1 hat. Are there more socks or more clothes?",
+      "choices": [
+        "more socks",
+        "more clothes",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 3 roses and 2 tulips. Are there more roses or more flowers?",
+      "choices": [
+        "more roses",
+        "more flowers",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 1 cookie and 4 crackers. Are there more cookies or more snacks?",
+      "choices": [
+        "more cookies",
+        "more snacks",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 2 frogs and 2 lizards. Are there more frogs or more animals?",
+      "choices": [
+        "more frogs",
+        "more animals",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 7 crayons and 1 marker. Are there more crayons or more art tools?",
+      "choices": [
+        "more crayons",
+        "more art tools",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 3 cups and 3 plates. Are there more cups or more dishes?",
+      "choices": [
+        "more cups",
+        "more dishes",
+        "the same number"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are 2 kittens and 4 puppies. Are there more kittens or more pets?",
+      "choices": [
+        "more kittens",
+        "more pets",
+        "the same number"
+      ],
+      "answer_index": 1
     }
   ]
 }

@@ -9,6 +9,96 @@
         "both"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "When button A is pressed, nothing happens. When button B is pressed, the light turns on. When both are pressed, it still turns on. Which button is the likely cause?",
+      "choices": [
+        "button A",
+        "button B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When switch X is flipped, the toy stays quiet. When switch Y is flipped, the toy sings. When both are flipped, it sings. Which switch is the cause?",
+      "choices": [
+        "switch X",
+        "switch Y",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When lever 1 is pulled, nothing happens. When lever 2 is pulled, bubbles start. When both are pulled, bubbles start. Which lever causes bubbles?",
+      "choices": [
+        "lever 1",
+        "lever 2",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When pad A is stepped on, nothing happens. When pad B is stepped on, a bell rings. When both are stepped on, it rings. Which pad causes the bell?",
+      "choices": [
+        "pad A",
+        "pad B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When knob A is turned, the motor stays off. When knob B is turned, the motor starts. When both are turned, the motor starts. Which knob is the cause?",
+      "choices": [
+        "knob A",
+        "knob B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When tile A is pressed, no sound plays. When tile B is pressed, music plays. When both are pressed, music plays. Which tile is the cause?",
+      "choices": [
+        "tile A",
+        "tile B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When button X is pushed, no light appears. When button Y is pushed, a light appears. When both are pushed, the light appears. Which button causes the light?",
+      "choices": [
+        "button X",
+        "button Y",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When slider A is moved, nothing happens. When slider B is moved, the fan turns on. When both are moved, the fan turns on. Which slider causes the fan?",
+      "choices": [
+        "slider A",
+        "slider B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When key A is turned, no light shows. When key B is turned, the light shows. When both are turned, the light shows. Which key causes the light?",
+      "choices": [
+        "key A",
+        "key B",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When flap A is lifted, nothing happens. When flap B is lifted, a toy jumps. When both are lifted, the toy jumps. Which flap causes the jump?",
+      "choices": [
+        "flap A",
+        "flap B",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

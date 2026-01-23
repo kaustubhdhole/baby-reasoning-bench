@@ -9,6 +9,96 @@
         "both"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 4 coins each. A puppy bumps one row and spreads it out. Are there more coins in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 6 buttons each. A child accidentally spreads one row. Are there more buttons in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 3 blocks each. A cat nudges one row and it spreads out. Are there more blocks in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 7 beads each. A teddy bumps one row and it spreads. Are there more beads in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 5 shells each. A baby pushes one row and it spreads out. Are there more shells in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 8 stars each. A child bumps one row and it spreads. Are there more stars in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 2 cups each. A dog bumps one row and it spreads. Are there more cups in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 9 stickers each. A kid accidentally spreads one row. Are there more stickers in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 10 pebbles each. A hand slips and spreads one row. Are there more pebbles in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "There are two rows of 1 button each. A breeze spreads one row. Are there more buttons in the spread-out row or the same number?",
+      "choices": [
+        "more in the spread-out row",
+        "the same number",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

@@ -9,6 +9,96 @@
         "both yes and no"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all fish can talk, and Goldie is a fish, can Goldie talk?",
+      "choices": [
+        "no",
+        "yes",
+        "both yes and no"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all cats are blue, and Muffin is a cat, what color is Muffin?",
+      "choices": [
+        "not blue",
+        "blue",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all cars can fly, and this car is a car, can it fly?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all flowers sing, and Daisy is a flower, does Daisy sing?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all frogs are purple, and Freddy is a frog, what color is Freddy?",
+      "choices": [
+        "not purple",
+        "purple",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all trucks are tiny, and this truck is a truck, is it tiny?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all birds swim, and Pip is a bird, can Pip swim?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all bears are striped, and Beara is a bear, is Beara striped?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all cups are made of candy, and this cup is a cup, is it made of candy?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "In a pretend world where all rabbits wear hats, and Ruby is a rabbit, does Ruby wear a hat?",
+      "choices": [
+        "no",
+        "yes",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }
