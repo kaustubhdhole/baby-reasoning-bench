@@ -2,11 +2,11 @@
   "name": "conservation-of-number-accidental",
   "qas": [
     {
-      "question": "There are two rows of 5 checkers each. A teddy accidentally spreads one row out. Are there more checkers in the spread-out row or the same number? Choose: X=more in the spread-out row, Y=the same number, Both=both.",
+      "question": "There are two rows of 5 checkers each. A teddy accidentally spreads one row out. Are there more checkers in the spread-out row or the same number?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "more in the spread-out row",
+        "the same number",
+        "both"
       ],
       "answer_index": 1
     }

@@ -2,11 +2,11 @@
   "name": "category-based-induction",
   "qas": [
     {
-      "question": "A robin has a special food called 'dax' to feed its babies. Which is more likely to also use dax: a sparrow (another bird) or a butterfly (looks similar but is an insect)? Choose: X=butterfly, Y=sparrow, Both=both.",
+      "question": "A robin has a special food called 'dax' to feed its babies. Which is more likely to also use dax: a sparrow (another bird) or a butterfly (looks similar but is an insect)?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "butterfly",
+        "sparrow",
+        "both"
       ],
       "answer_index": 1
     }

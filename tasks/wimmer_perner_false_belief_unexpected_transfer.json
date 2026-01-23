@@ -2,11 +2,11 @@
   "name": "false-belief-unexpected-transfer",
   "qas": [
     {
-      "question": "Sally puts her marble in a basket and leaves. Anne moves the marble to a box while Sally is gone. When Sally returns, where will she look for the marble first? Choose: X=the box, Y=the basket, Both=both places.",
+      "question": "Sally puts her marble in a basket and leaves. Anne moves the marble to a box while Sally is gone. When Sally returns, where will she look for the marble first?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "the box",
+        "the basket",
+        "both places"
       ],
       "answer_index": 1
     }

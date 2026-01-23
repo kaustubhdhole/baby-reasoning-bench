@@ -2,11 +2,11 @@
   "name": "false-belief-vignette-battery",
   "qas": [
     {
-      "question": "A child opens a candy box and finds pencils inside. Later, another child who has not seen inside the box comes in. What will the second child think is in the box? Choose: X=pencils, Y=candy, Both=both pencils and candy.",
+      "question": "A child opens a candy box and finds pencils inside. Later, another child who has not seen inside the box comes in. What will the second child think is in the box?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "pencils",
+        "candy",
+        "both pencils and candy"
       ],
       "answer_index": 1
     }

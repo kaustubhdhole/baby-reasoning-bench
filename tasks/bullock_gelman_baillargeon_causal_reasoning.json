@@ -2,11 +2,11 @@
   "name": "physical-cause-effect",
   "qas": [
     {
-      "question": "A ball hits a switch and the light turns on. If the ball never hits the switch, can the light still turn on by itself? Choose: X=yes, Y=no, Both=sometimes.",
+      "question": "A ball hits a switch and the light turns on. If the ball never hits the switch, can the light still turn on by itself?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "yes",
+        "no",
+        "sometimes"
       ],
       "answer_index": 1
     }

@@ -2,11 +2,11 @@
   "name": "simple-causal-analogy",
   "qas": [
     {
-      "question": "Chocolate melts in the heat. Snowman melts in the heat. What does ice do in the heat? Choose: X=freezes, Y=melts, Both=both freezes and melts.",
+      "question": "Chocolate melts in the heat. Snowman melts in the heat. What does ice do in the heat?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "freezes",
+        "melts",
+        "both freezes and melts"
       ],
       "answer_index": 1
     }

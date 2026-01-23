@@ -2,11 +2,11 @@
   "name": "counterfactual-possibilities",
   "qas": [
     {
-      "question": "The picnic was canceled because it rained. If it had not rained, what could have happened instead? Choose: X=the picnic was still canceled, Y=the picnic went ahead as planned, Both=both outcomes.",
+      "question": "The picnic was canceled because it rained. If it had not rained, what could have happened instead?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "the picnic was still canceled",
+        "the picnic went ahead as planned",
+        "both outcomes"
       ],
       "answer_index": 1
     }

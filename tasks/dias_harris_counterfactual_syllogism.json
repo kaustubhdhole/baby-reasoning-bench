@@ -2,11 +2,11 @@
   "name": "counterfactual-syllogism-pretend",
   "qas": [
     {
-      "question": "In a pretend world where all bears can fly, and Teddy is a bear, can Teddy fly? Choose: X=no, Y=yes, Both=both yes and no.",
+      "question": "In a pretend world where all bears can fly, and Teddy is a bear, can Teddy fly?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "no",
+        "yes",
+        "both yes and no"
       ],
       "answer_index": 1
     }
