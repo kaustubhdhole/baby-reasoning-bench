@@ -25,6 +25,10 @@ def build_prompt(question: str, choices: list[str]) -> str:
     ])
 
 
+def format_choice(choice: str, index: int) -> str:
+    return f"{chr(65 + index)}) {choice}"
+
+
 def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.device) -> float:
     full_text = f"{prompt} {choice}"
     prompt_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
@@ -44,9 +48,10 @@ def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.devic
     return token_log_probs.sum().item()
 
 
-def evaluate_task(model, tokenizer, task: dict, device: torch.device) -> float:
+def evaluate_task(model, tokenizer, task: dict, device: torch.device) -> tuple[float, list[dict]]:
     correct = 0
     total = 0
+    answers = []
     for qa in task["qas"]:
         prompt = build_prompt(qa["question"], qa["choices"])
         scores = [
@@ -54,10 +59,15 @@ def evaluate_task(model, tokenizer, task: dict, device: torch.device) -> float:
             for choice in qa["choices"]
         ]
         predicted = int(max(range(len(scores)), key=lambda idx: scores[idx]))
-        if predicted == qa["answer_index"]:
+        actual = qa["answer_index"]
+        answers.append({
+            "pred": format_choice(qa["choices"][predicted], predicted),
+            "actual": format_choice(qa["choices"][actual], actual),
+        })
+        if predicted == actual:
             correct += 1
         total += 1
-    return correct / total if total else math.nan
+    return (correct / total if total else math.nan), answers
 
 
 def plot_radar(task_names: list[str], model_results: dict[str, list[float]], output_path: Path) -> None:
@@ -119,6 +129,7 @@ def main() -> None:
     task_names = [task["name"] for task in tasks]
 
     model_results: dict[str, list[float]] = {}
+    model_outputs: dict[str, dict[str, dict[str, list[dict]]]] = {}
     for model_name in args.models:
         print(f"Loading {model_name}...")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -128,11 +139,15 @@ def main() -> None:
         model.eval()
 
         scores = []
+        task_outputs: dict[str, dict[str, list[dict]]] = {}
         for task in tasks:
-            accuracy = evaluate_task(model, tokenizer, task, device)
+            accuracy, answers = evaluate_task(model, tokenizer, task, device)
             scores.append(accuracy)
+            task_outputs[task["name"]] = {"answers": answers}
             print(f"{model_name} | {task['name']}: {accuracy:.2%}")
         model_results[model_name] = scores
+        model_outputs[model_name] = task_outputs
+        print(json.dumps(task_outputs, indent=2))
 
     plot_radar(task_names, model_results, args.output)
     print(f"Radar chart saved to {args.output}")
