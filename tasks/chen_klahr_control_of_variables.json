@@ -2,11 +2,11 @@
   "name": "control-of-variables-strategy",
   "qas": [
     {
-      "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test? Choose: X=change multiple factors at once, Y=change only the ball's weight and keep all other factors the same, Both=change the weight and another factor.",
+      "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "change multiple factors at once",
+        "change only the ball's weight and keep all other factors the same",
+        "change the weight and another factor"
       ],
       "answer_index": 1
     }

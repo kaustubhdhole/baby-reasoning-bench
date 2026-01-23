@@ -2,11 +2,11 @@
   "name": "causal-structure-learning",
   "qas": [
     {
-      "question": "When lever Y is pulled, the toy lights up. When lever X is pulled alone, nothing happens. When both X and Y are pulled, it still lights up. Which lever is the likely cause? Choose: X=lever X, Y=lever Y, Both=both.",
+      "question": "When lever Y is pulled, the toy lights up. When lever X is pulled alone, nothing happens. When both X and Y are pulled, it still lights up. Which lever is the likely cause?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "lever X",
+        "lever Y",
+        "both"
       ],
       "answer_index": 1
     }

@@ -2,11 +2,11 @@
   "name": "transitive-inference",
   "qas": [
     {
-      "question": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest? Choose: X=stick B, Y=stick A, Both=sticks A and B are tied.",
+      "question": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "stick B",
+        "stick A",
+        "sticks A and B are tied"
       ],
       "answer_index": 1
     }

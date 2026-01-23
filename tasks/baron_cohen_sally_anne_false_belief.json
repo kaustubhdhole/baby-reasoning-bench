@@ -2,11 +2,11 @@
   "name": "false-belief-sally-anne",
   "qas": [
     {
-      "question": "In a puppet show, Sally hides a toy in her bag and leaves. Anne moves it to her own box. Where will Sally search when she comes back? Choose: X=Anne's box, Y=her bag, Both=both locations.",
+      "question": "In a puppet show, Sally hides a toy in her bag and leaves. Anne moves it to her own box. Where will Sally search when she comes back?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "Anne's box",
+        "her bag",
+        "both locations"
       ],
       "answer_index": 1
     }

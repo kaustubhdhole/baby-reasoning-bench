@@ -2,11 +2,11 @@
   "name": "story-analogy-relational-shift",
   "qas": [
     {
-      "question": "Base story: A small knight cannot lift a heavy gate alone, so he asks two friends to lift together. New story: A small robot cannot move a heavy crate alone. What should the robot do to solve the problem? Choose: X=try to lift it alone, Y=ask two helpers to lift together, Both=ask one helper and also try alone.",
+      "question": "Base story: A small knight cannot lift a heavy gate alone, so he asks two friends to lift together. New story: A small robot cannot move a heavy crate alone. What should the robot do to solve the problem?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "try to lift it alone",
+        "ask two helpers to lift together",
+        "ask one helper and also try alone"
       ],
       "answer_index": 1
     }

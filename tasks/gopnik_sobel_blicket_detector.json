@@ -2,11 +2,11 @@
   "name": "blicket-detector-inference",
   "qas": [
     {
-      "question": "When block A is placed on the machine, nothing happens. When block B is placed alone, it lights up. When A and B are placed together, it lights up. Which block is the blicket? Choose: X=block A, Y=block B, Both=both.",
+      "question": "When block A is placed on the machine, nothing happens. When block B is placed alone, it lights up. When A and B are placed together, it lights up. Which block is the blicket?",
       "choices": [
-        "X",
-        "Y",
-        "Both"
+        "block A",
+        "block B",
+        "both"
       ],
       "answer_index": 1
     }
