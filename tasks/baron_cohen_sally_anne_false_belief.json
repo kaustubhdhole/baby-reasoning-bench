@@ -9,6 +9,96 @@
         "both locations"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "Mia puts her cookie in a red jar and goes outside. Leo moves it to a blue jar. When Mia comes back, where will she look first?",
+      "choices": [
+        "blue jar",
+        "red jar",
+        "both jars"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Ben hides his ball under the bed, then leaves. While he is away, it is moved to the closet. Where will Ben look when he returns?",
+      "choices": [
+        "closet",
+        "under the bed",
+        "both places"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Ava puts her toy in the toy box and goes to lunch. Dad moves it to the shelf. Where will Ava search first after lunch?",
+      "choices": [
+        "shelf",
+        "toy box",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Sam places a sticker in his backpack, then goes to the park. His sister moves it to a drawer. Where will Sam look first?",
+      "choices": [
+        "drawer",
+        "backpack",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Lily puts a doll in the basket and leaves. The doll is moved to the bed. When Lily returns, where will she check first?",
+      "choices": [
+        "bed",
+        "basket",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Noah puts his car in a green cup and goes away. It is moved to a yellow cup. Where will Noah look first?",
+      "choices": [
+        "yellow cup",
+        "green cup",
+        "both cups"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Ivy puts her blocks in the closet and leaves. Her brother moves them to the table. Where will Ivy look first?",
+      "choices": [
+        "table",
+        "closet",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Owen hides a ring in a shoe and leaves. The ring is moved to a drawer. When Owen comes back, where will he look first?",
+      "choices": [
+        "drawer",
+        "shoe",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Zoe puts a marble in a cup and steps out. It is moved to a bowl. Where will Zoe search first?",
+      "choices": [
+        "bowl",
+        "cup",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Max hides a toy train in the box and goes away. It is moved to the shelf. Where will Max look first?",
+      "choices": [
+        "shelf",
+        "box",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

@@ -9,6 +9,96 @@
         "drag it and roll it"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "Story hint: A child pulled a wagon by using a rope. New problem: A toy boat is stuck on the floor. What should you use?",
+      "choices": [
+        "push it with your hands",
+        "pull it with a string or rope",
+        "push and pull"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A bird got food by pecking a box open. New problem: A child needs to open a sealed snack. What should the child do?",
+      "choices": [
+        "leave it closed",
+        "open it by peeling or picking at the edge",
+        "open it and leave it"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A person lifted a heavy lid by using a stick as a lever. New problem: A child needs to lift a heavy board. What should the child do?",
+      "choices": [
+        "lift with bare hands",
+        "use a stick as a lever",
+        "lift and use a stick"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A cat reached a window by jumping onto a chair. New problem: A small child needs to reach a sink. What should the child do?",
+      "choices": [
+        "stretch only",
+        "stand on a step stool",
+        "stretch and climb"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A car crossed a muddy area by using a bridge. New problem: A toy truck needs to cross a puddle. What should it do?",
+      "choices": [
+        "drive through the water",
+        "use a bridge or plank",
+        "drive and bridge"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A person moved a heavy couch by sliding it on a blanket. New problem: A child needs to move a heavy box. What should the child do?",
+      "choices": [
+        "carry it alone",
+        "slide it on a blanket",
+        "carry and slide"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A boy kept his lunch cold by putting it in a cooler. New problem: A girl wants to keep her juice cold. What should she do?",
+      "choices": [
+        "leave it in the sun",
+        "put it in a cooler or with ice",
+        "leave it and cool it"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A rabbit escaped by going through a tunnel. New problem: A toy car is trapped behind a fence. What should you do?",
+      "choices": [
+        "push it through the fence",
+        "go under or through a tunnel",
+        "push and dig"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A swimmer used goggles to see underwater. New problem: A child wants to see underwater in the pool. What should the child use?",
+      "choices": [
+        "close eyes",
+        "use goggles",
+        "use goggles and close eyes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Story hint: A worker moved boxes by stacking them on a cart. New problem: A child needs to move many toys. What should the child do?",
+      "choices": [
+        "carry one at a time",
+        "use a cart or box to carry many",
+        "carry and use a cart"
+      ],
+      "answer_index": 1
     }
   ]
 }

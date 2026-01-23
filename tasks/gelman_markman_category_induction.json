@@ -9,6 +9,96 @@
         "both"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A dog has a tiny bone inside its ear. Which is more likely to also have a tiny ear bone: a cat (another animal) or a robot that looks like a dog?",
+      "choices": [
+        "robot",
+        "cat",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A whale has a special fat called zorp inside. Which is more likely to have zorp: a dolphin (another sea mammal) or a shark (looks similar but is a fish)?",
+      "choices": [
+        "shark",
+        "dolphin",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A cow has a type of blood called mip. Which is more likely to also have mip: a goat (another farm animal) or a horse toy that looks like a horse?",
+      "choices": [
+        "horse toy",
+        "goat",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A lizard has a special skin called dorb. Which is more likely to have dorb: a snake (another reptile) or a worm (looks a bit like a snake)?",
+      "choices": [
+        "worm",
+        "snake",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A duck has a food called nif for its babies. Which is more likely to also use nif: a goose (another bird) or a bat (flies but is a mammal)?",
+      "choices": [
+        "bat",
+        "goose",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A turtle has a little organ called tav. Which is more likely to have tav: a tortoise (another reptile) or a crab (has a shell)?",
+      "choices": [
+        "crab",
+        "tortoise",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A bee has a special juice called pim. Which is more likely to have pim: a wasp (another insect) or a hummingbird (flies too)?",
+      "choices": [
+        "hummingbird",
+        "wasp",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A frog has a sound called zum in its throat. Which is more likely to also have zum: a toad (another amphibian) or a fish (lives in water)?",
+      "choices": [
+        "fish",
+        "toad",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A lion has a special tooth called keb. Which is more likely to also have keb: a tiger (another big cat) or a dog (looks less like a cat)?",
+      "choices": [
+        "dog",
+        "tiger",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A parrot has a feather called lod. Which is more likely to also have lod: a pigeon (another bird) or a butterfly (has wings)?",
+      "choices": [
+        "butterfly",
+        "pigeon",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

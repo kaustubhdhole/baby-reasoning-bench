@@ -9,6 +9,96 @@
         "ask one helper and also try alone"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "Base story: A little mouse cannot move a big cheese alone, so she gets two friends to push together. New story: A little puppy cannot move a big ball alone. What should the puppy do?",
+      "choices": [
+        "push alone",
+        "get two friends to push together",
+        "get one friend and push alone"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A bird cannot reach a high branch, so it stands on a box. New story: A child cannot reach a high shelf. What should the child do?",
+      "choices": [
+        "jump only",
+        "stand on a box or stool",
+        "ask and also jump"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A turtle crosses a pond by riding on a log. New story: A toy car needs to cross a puddle. What should it do?",
+      "choices": [
+        "drive into the water",
+        "ride on something that floats",
+        "drive and float"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A boy shares his snack so everyone has some. New story: A girl has one big cookie and three friends. What should she do?",
+      "choices": [
+        "keep it all",
+        "share it into pieces",
+        "share and keep half"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A dog opens a gate by pulling a rope. New story: A robot needs to open a door with a handle. What should it do?",
+      "choices": [
+        "push the door only",
+        "pull the handle",
+        "push and pull"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A train gets over a hill by using a helper engine. New story: A toy truck cannot climb a steep ramp. What should it do?",
+      "choices": [
+        "try alone",
+        "use a helper to push",
+        "try alone and then push"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A girl carries water in a bucket with a lid so it does not spill. New story: A boy carries paint in a cup. What should he do?",
+      "choices": [
+        "carry without a lid",
+        "use a lid to keep it in",
+        "use a lid and shake it"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A frog crosses a road safely by waiting for the red light to stop cars. New story: A child wants to cross a busy street. What should the child do?",
+      "choices": [
+        "run across anytime",
+        "wait for the walk sign",
+        "run and wait"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A bee reaches the flower by flying around a wall. New story: A ball needs to get to the other side of a box. What should you do?",
+      "choices": [
+        "push through the box",
+        "move around the box",
+        "push and move around"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Base story: A fox gets food by digging under a fence. New story: A puppy wants to get a ball stuck behind a small fence. What should the puppy do?",
+      "choices": [
+        "jump into the fence",
+        "dig or go under",
+        "jump and dig"
+      ],
+      "answer_index": 1
     }
   ]
 }

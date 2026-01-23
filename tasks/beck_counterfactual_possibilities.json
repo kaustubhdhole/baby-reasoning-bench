@@ -9,6 +9,96 @@
         "both outcomes"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "The parade stopped because it started to snow. If it had not snowed, what could have happened?",
+      "choices": [
+        "the parade was still stopped",
+        "the parade continued",
+        "both outcomes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The game was canceled because the coach was sick. If the coach had not been sick, what could have happened?",
+      "choices": [
+        "the game was still canceled",
+        "the game was played",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The picnic ended early because it got dark. If it had stayed light, what could have happened?",
+      "choices": [
+        "the picnic still ended early",
+        "the picnic could have gone longer",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The story time was quiet because the kids were sleepy. If they had not been sleepy, what could have happened?",
+      "choices": [
+        "story time was still quiet",
+        "they could have talked more",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The sandcastle fell because a big wave hit it. If the wave had not come, what could have happened?",
+      "choices": [
+        "the sandcastle still fell",
+        "the sandcastle could have stayed up",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The kite would not fly because there was no wind. If there had been wind, what could have happened?",
+      "choices": [
+        "the kite still would not fly",
+        "the kite could have flown",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The puddle formed because it rained hard. If it had not rained, what could have happened?",
+      "choices": [
+        "the puddle still formed",
+        "the ground could have stayed dry",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The cake burned because it was left in too long. If it had not been left in too long, what could have happened?",
+      "choices": [
+        "the cake still burned",
+        "the cake could have baked okay",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The toy boat sank because it had a hole. If it did not have a hole, what could have happened?",
+      "choices": [
+        "the boat still sank",
+        "the boat could have floated",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "The flower wilted because no one watered it. If it had been watered, what could have happened?",
+      "choices": [
+        "the flower still wilted",
+        "the flower could have stayed fresh",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

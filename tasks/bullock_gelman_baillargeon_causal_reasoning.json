@@ -9,6 +9,96 @@
         "sometimes"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A toy car bumps a button and the music plays. If the car never bumps the button, will the music play by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A hand presses a bell and it rings. If the hand does not press it, can the bell ring on its own?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A ball knocks over a block tower and it falls. If the ball does not hit it, will the tower fall by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A finger flips a switch and the fan starts. If no one flips the switch, can the fan start by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A dog pushes a door and it opens. If the dog does not push it, will the door open by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A marble hits a lever and a toy pops up. If the marble never hits the lever, will the toy pop up by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A spoon taps a xylophone bar and it makes a sound. If the spoon never taps it, can the sound happen by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child steps on a pedal and bubbles start. If the child does not step, will bubbles start anyway?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A wind-up key is turned and the toy walks. If no one turns the key, will it walk on its own?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A cup is tipped and water spills out. If the cup is not tipped, will the water spill by itself?",
+      "choices": [
+        "yes",
+        "no",
+        "sometimes"
+      ],
+      "answer_index": 1
     }
   ]
 }

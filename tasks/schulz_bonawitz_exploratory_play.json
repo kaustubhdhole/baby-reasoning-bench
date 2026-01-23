@@ -9,6 +9,96 @@
         "press all and one at a time"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A box makes sounds, but you are not sure which button works. What is a good way to find out?",
+      "choices": [
+        "press all buttons at once",
+        "test one button at a time",
+        "press all and one at a time"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A toy sometimes lights up and you want to know which switch does it. What should you do?",
+      "choices": [
+        "flip all switches together",
+        "try one switch at a time",
+        "flip all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A music toy has three keys and you want to know which key makes the sound. What should you do?",
+      "choices": [
+        "press all keys",
+        "press one key at a time",
+        "press all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A bubble toy has three buttons and you want to know which makes bubbles. What should you do?",
+      "choices": [
+        "press all buttons",
+        "press one button at a time",
+        "press all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A light box has four sliders and you want to know which slider turns it on. What should you do?",
+      "choices": [
+        "move all sliders",
+        "move one slider at a time",
+        "move all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A wind toy has two levers and you want to know which starts the wind. What should you do?",
+      "choices": [
+        "pull both levers",
+        "pull one lever at a time",
+        "pull both and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A pop-up toy has three knobs and you want to know which makes it pop. What should you do?",
+      "choices": [
+        "turn all knobs",
+        "turn one knob at a time",
+        "turn all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A toy has four doors and you want to know which door hides the sound button. What should you do?",
+      "choices": [
+        "open all doors",
+        "open one door at a time",
+        "open all and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A rattle has two parts and you want to know which part makes noise. What should you do?",
+      "choices": [
+        "shake both parts together",
+        "shake one part at a time",
+        "shake both and one"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A toy has three pedals and you want to know which pedal starts the light. What should you do?",
+      "choices": [
+        "step on all pedals",
+        "step on one pedal at a time",
+        "step on all and one"
+      ],
+      "answer_index": 1
     }
   ]
 }

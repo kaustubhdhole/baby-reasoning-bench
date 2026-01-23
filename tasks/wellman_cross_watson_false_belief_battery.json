@@ -9,6 +9,96 @@
         "both pencils and candy"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A child opens a toy egg and finds a rock inside. Another child who has not seen inside comes in. What will the second child think is in the egg?",
+      "choices": [
+        "rock",
+        "a toy",
+        "both rock and toy"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a juice box and finds crayons inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+      "choices": [
+        "crayons",
+        "juice",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a chip bag and finds socks inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+      "choices": [
+        "socks",
+        "chips",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a cookie tin and finds buttons inside. Another child who has not seen inside comes in. What will the second child think is in the tin?",
+      "choices": [
+        "buttons",
+        "cookies",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a cereal box and finds blocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+      "choices": [
+        "blocks",
+        "cereal",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a gift box and finds rocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+      "choices": [
+        "rocks",
+        "a gift",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a snack jar and finds paper inside. Another child who has not seen inside comes in. What will the second child think is in the jar?",
+      "choices": [
+        "paper",
+        "snacks",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a milk carton and finds toys inside. Another child who has not seen inside comes in. What will the second child think is in the carton?",
+      "choices": [
+        "toys",
+        "milk",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a candy bag and finds coins inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+      "choices": [
+        "coins",
+        "candy",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child opens a pencil box and finds stickers inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+      "choices": [
+        "stickers",
+        "pencils",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

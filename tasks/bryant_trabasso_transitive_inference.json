@@ -9,6 +9,96 @@
         "sticks A and B are tied"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "If cup A is taller than cup B, and cup B is taller than cup C, which cup is tallest?",
+      "choices": [
+        "cup B",
+        "cup A",
+        "cups A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If rope A is longer than rope B, and rope B is longer than rope C, which rope is longest?",
+      "choices": [
+        "rope B",
+        "rope A",
+        "ropes A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If tower A is higher than tower B, and tower B is higher than tower C, which tower is highest?",
+      "choices": [
+        "tower B",
+        "tower A",
+        "towers A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If stick A is shorter than stick B, and stick B is shorter than stick C, which stick is longest?",
+      "choices": [
+        "stick B",
+        "stick C",
+        "sticks B and C are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If book A is thicker than book B, and book B is thicker than book C, which book is thickest?",
+      "choices": [
+        "book B",
+        "book A",
+        "books A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If toy car A is faster than toy car B, and toy car B is faster than toy car C, which car is fastest?",
+      "choices": [
+        "car B",
+        "car A",
+        "cars A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If ladder A is taller than ladder B, and ladder B is taller than ladder C, which ladder is tallest?",
+      "choices": [
+        "ladder B",
+        "ladder A",
+        "ladders A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If bear A is bigger than bear B, and bear B is bigger than bear C, which bear is biggest?",
+      "choices": [
+        "bear B",
+        "bear A",
+        "bears A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If balloon A is higher than balloon B, and balloon B is higher than balloon C, which balloon is highest?",
+      "choices": [
+        "balloon B",
+        "balloon A",
+        "balloons A and B are tied"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "If crayon A is longer than crayon B, and crayon B is longer than crayon C, which crayon is longest?",
+      "choices": [
+        "crayon B",
+        "crayon A",
+        "crayons A and B are tied"
+      ],
+      "answer_index": 1
     }
   ]
 }

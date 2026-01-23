@@ -9,6 +9,96 @@
         "both boxes"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A girl watches a toy go into a blue box, then leaves. While she is gone, the toy is moved to a red box. When she returns, which box will she open first?",
+      "choices": [
+        "red box",
+        "blue box",
+        "both boxes"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A boy sees a cookie go into a tin, then leaves. It is moved to a jar. When he comes back, which container will he open first?",
+      "choices": [
+        "jar",
+        "tin",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A mom sees a book go into a bag, then steps out. It is moved to a drawer. When she returns, which place will she check first?",
+      "choices": [
+        "drawer",
+        "bag",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child sees a ball go into a bucket, then leaves. It is moved to a basket. When the child returns, which will be opened first?",
+      "choices": [
+        "basket",
+        "bucket",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A teacher sees a pencil go into a cup, then leaves. It is moved to a box. When she returns, which container will she open first?",
+      "choices": [
+        "box",
+        "cup",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A kid sees a marble go into a green bowl, then leaves. It is moved to a yellow bowl. When the kid returns, which bowl will be opened first?",
+      "choices": [
+        "yellow bowl",
+        "green bowl",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A dad sees a toy go into a backpack, then leaves. It is moved to a drawer. When he returns, where will he look first?",
+      "choices": [
+        "drawer",
+        "backpack",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A sister sees a ring go into a purse, then leaves. It is moved to a box. When she returns, which will she open first?",
+      "choices": [
+        "box",
+        "purse",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A boy sees a toy go into a chest, then leaves. It is moved to a shelf. When he returns, which place will he check first?",
+      "choices": [
+        "shelf",
+        "chest",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A girl sees a snack go into a drawer, then leaves. It is moved to a cabinet. When she returns, which will she open first?",
+      "choices": [
+        "cabinet",
+        "drawer",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

@@ -9,6 +9,96 @@
         "partly dirty"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "A boy spilled juice and the table got wet. If he had not spilled the juice, what would the table be like?",
+      "choices": [
+        "wet",
+        "dry",
+        "partly wet"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A girl dropped paint and the floor got messy. If she had not dropped the paint, what would the floor be like?",
+      "choices": [
+        "messy",
+        "clean",
+        "partly messy"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A puppy tracked mud inside and the rug got dirty. If the puppy had stayed outside, what would the rug be like?",
+      "choices": [
+        "dirty",
+        "clean",
+        "partly dirty"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child knocked over a cup and the carpet got wet. If the cup had not been knocked over, what would the carpet be like?",
+      "choices": [
+        "wet",
+        "dry",
+        "partly wet"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A marker leaked and the paper got stained. If the marker had not leaked, what would the paper be like?",
+      "choices": [
+        "stained",
+        "clean",
+        "partly stained"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A boy left the tap on and the sink overflowed. If he had turned it off, what would the sink be like?",
+      "choices": [
+        "overflowed",
+        "not overflowed",
+        "partly overflowed"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A girl stepped in a puddle and the hallway got wet. If she had not stepped in it, what would the hallway be like?",
+      "choices": [
+        "wet",
+        "dry",
+        "partly wet"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A toy spilled glitter and the table got sparkly. If it had not spilled, what would the table be like?",
+      "choices": [
+        "sparkly",
+        "not sparkly",
+        "partly sparkly"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A child broke a cookie and crumbs fell. If the cookie had not been broken, what would the floor be like?",
+      "choices": [
+        "full of crumbs",
+        "no crumbs",
+        "some crumbs"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A cat knocked over the plant and the dirt spilled. If the cat had not knocked it over, what would the floor be like?",
+      "choices": [
+        "dirty",
+        "clean",
+        "partly dirty"
+      ],
+      "answer_index": 1
     }
   ]
 }

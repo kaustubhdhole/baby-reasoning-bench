@@ -9,6 +9,96 @@
         "both freezes and melts"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "Butter melts in heat. Wax melts in heat. What does ice do in heat?",
+      "choices": [
+        "freezes",
+        "melts",
+        "both freezes and melts"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Rain makes the ground wet. A hose makes the ground wet. What does a spilled cup make the floor?",
+      "choices": [
+        "dry",
+        "wet",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A push makes a swing move. A pull makes a swing move. What does a shove do to the swing?",
+      "choices": [
+        "stop it",
+        "make it move",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A key opens a lock. A code opens a lock. What does the right key do?",
+      "choices": [
+        "close it",
+        "open it",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Warm hands melt snow. Warm sun melts snow. What does warm water do to snow?",
+      "choices": [
+        "freeze it",
+        "melt it",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A fan makes the air move. A breeze makes the air move. What does a blower do to the air?",
+      "choices": [
+        "stop it",
+        "move it",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A bell rings when you hit it. A drum sounds when you hit it. What happens to a cymbal when you hit it?",
+      "choices": [
+        "stays quiet",
+        "makes a sound",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Cold makes water freeze. A freezer makes water freeze. What does ice make water do?",
+      "choices": [
+        "melt",
+        "freeze",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "Soap makes hands clean. Water makes hands clean. What does soap and water do to hands?",
+      "choices": [
+        "dirty",
+        "clean",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "A magnet pulls paper clips. A magnet pulls nails. What does a magnet do to a key?",
+      "choices": [
+        "push it",
+        "pull it",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }

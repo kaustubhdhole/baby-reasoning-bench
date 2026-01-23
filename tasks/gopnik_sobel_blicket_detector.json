@@ -9,6 +9,96 @@
         "both"
       ],
       "answer_index": 1
+    },
+    {
+      "question": "When block C is placed on the machine, nothing happens. When block D is placed alone, it lights up. When C and D are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block C",
+        "block D",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block E is placed on the machine, it lights up. When block F is placed alone, nothing happens. When E and F are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block F",
+        "block E",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block G is placed alone, nothing happens. When block H is placed alone, it lights up. When G and H are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block G",
+        "block H",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block J is placed alone, it lights up. When block K is placed alone, nothing happens. When J and K are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block K",
+        "block J",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block L is placed alone, nothing happens. When block M is placed alone, it lights up. When L and M are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block L",
+        "block M",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block N is placed alone, it lights up. When block P is placed alone, nothing happens. When N and P are together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block P",
+        "block N",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block R is placed alone, nothing happens. When block S is placed alone, it lights up. When R and S are placed together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block R",
+        "block S",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block T is placed alone, it lights up. When block U is placed alone, nothing happens. When T and U are together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block U",
+        "block T",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block V is placed alone, nothing happens. When block W is placed alone, it lights up. When V and W are together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block V",
+        "block W",
+        "both"
+      ],
+      "answer_index": 1
+    },
+    {
+      "question": "When block Y is placed alone, it lights up. When block Z is placed alone, nothing happens. When Y and Z are together, it lights up. Which block is the blicket?",
+      "choices": [
+        "block Z",
+        "block Y",
+        "both"
+      ],
+      "answer_index": 1
     }
   ]
 }
