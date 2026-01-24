@@ -173,7 +173,6 @@ def main() -> None:
         default=[
             "BabyLM-community/babylm-baseline-100m-gpt2",
             "BabyLM-community/babylm-baseline-10m-gpt2",
-            #"BabyLM-community/babylm-interaction-baseline-simpo"
         ],
         help="Model names or paths to evaluate.",
     )
