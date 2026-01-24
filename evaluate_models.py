@@ -69,29 +69,85 @@ def evaluate_task(model, tokenizer, task: dict, device: torch.device) -> tuple[f
         total += 1
     return (correct / total if total else math.nan), answers
 
+import math
+import textwrap
+from pathlib import Path
 
-def plot_radar(task_names: list[str], model_results: dict[str, list[float]], output_path: Path) -> None:
-    angles = [n / float(len(task_names)) * 2 * math.pi for n in range(len(task_names))]
+import matplotlib.pyplot as plt
+
+
+def _wrap_label(s: str, width: int = 18) -> str:
+    # Wrap long labels onto multiple lines
+    return "\n".join(textwrap.wrap(s, width=width, break_long_words=False, break_on_hyphens=True))
+
+
+def plot_radar(
+    task_names: list[str],
+    model_results: dict[str, list[float]],
+    output_path: Path,
+    *,
+    figsize=(12, 12),
+    label_wrap_width: int = 18,
+    label_radius: float = 1.12,   # how far outside the 1.0 circle to place labels
+    label_fontsize: int = 10,
+    legend_anchor=(1.35, 1.10),   # move legend away from the plot
+) -> None:
+    n = len(task_names)
+    angles = [i / float(n) * 2 * math.pi for i in range(n)]
     angles += angles[:1]
 
-    fig, ax = plt.subplots(figsize=(10, 10), subplot_kw={"projection": "polar"})
+    fig, ax = plt.subplots(figsize=figsize, subplot_kw={"projection": "polar"})
     ax.set_theta_offset(math.pi / 2)
     ax.set_theta_direction(-1)
 
+    # Make room for legend and outer labels
+    fig.subplots_adjust(right=0.78, top=0.92)
+
+    # Use ticks for geometry only; we will draw custom labels
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(task_names)
+    ax.set_xticklabels([""] * n)
+
     ax.set_rlabel_position(0)
     ax.set_yticks([0.2, 0.4, 0.6, 0.8, 1.0])
-    ax.set_ylim(0, 1)
+    ax.set_ylim(0, 1.0)
 
+    # Custom labels: wrapped + rotated + aligned by quadrant
+    for angle, raw in zip(angles[:-1], task_names):
+        label = _wrap_label(raw, width=label_wrap_width)
+
+        # Rotate text so it roughly follows the circle, but keep it readable
+        deg = math.degrees(angle)
+        rotation = deg - 90
+        if 90 < deg < 270:
+            rotation += 180  # flip on left side
+
+        # Horizontal alignment based on side
+        ha = "left" if (deg <= 90 or deg >= 270) else "right"
+
+        ax.text(
+            angle,
+            label_radius,
+            label,
+            fontsize=label_fontsize,
+            rotation=rotation,
+            rotation_mode="anchor",
+            ha=ha,
+            va="center",
+            clip_on=False,
+        )
+
+    # Plot data
     for model_name, scores in model_results.items():
         values = scores + scores[:1]
         ax.plot(angles, values, linewidth=2, label=model_name)
-        ax.fill(angles, values, alpha=0.1)
+        ax.fill(angles, values, alpha=0.10)
 
-    ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1))
-    fig.tight_layout()
-    fig.savefig(output_path)
+    # Legend farther from circle
+    ax.legend(loc="upper right", bbox_to_anchor=legend_anchor, frameon=True)
+
+    fig.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+
 
 
 def main() -> None:

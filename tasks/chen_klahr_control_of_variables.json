@@ -4,54 +4,54 @@
     {
       "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test?",
       "choices": [
-        "change multiple factors at once",
-        "change only the ball's weight and keep all other factors the same",
-        "change the weight and another factor"
+        "change the color of the ball",
+        "change the weight of the ball",
+        "change the color and weight of the ball"
       ],
       "answer_index": 1
     },
     {
       "question": "You want to know if a bigger sail makes a toy boat go faster. What should you do?",
       "choices": [
-        "change many things",
+        "change only the water",
         "change only the sail size",
-        "change the sail and the water"
+        "change only the sail color"
       ],
       "answer_index": 1
     },
     {
       "question": "You want to know if a toy car goes farther with smoother wheels. What is the best test?",
       "choices": [
-        "change the wheels and the track",
+        "change only the track",
         "change only the wheels",
-        "change the wheels and the ramp height"
+        "change only the driver"
       ],
       "answer_index": 1
     },
     {
       "question": "You want to know if a plant grows taller with more light. What should you do?",
       "choices": [
-        "change the light and water",
+        "change only the soil",
         "change only the light",
-        "change the light and the soil"
+        "change only the water"
       ],
       "answer_index": 1
     },
     {
       "question": "You want to know if a louder clap makes the toy jump higher. What should you do?",
       "choices": [
-        "change the clap and the toy",
+        "change only the toy",
         "change only the clap",
-        "change the clap and the floor"
+        "change only the floor"
       ],
       "answer_index": 1
     },
     {
       "question": "You want to know if a heavier book makes a stack fall. What should you do?",
       "choices": [
-        "change the book and the table",
-        "change only the book weight",
-        "change the book and the height"
+        "change only the table",
+        "change only the book",
+        "change only the stack"
       ],
       "answer_index": 1
     },

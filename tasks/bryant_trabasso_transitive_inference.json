@@ -6,7 +6,7 @@
       "choices": [
         "stick B",
         "stick A",
-        "sticks A and B are tied"
+        "stick C"
       ],
       "answer_index": 1
     },
@@ -15,7 +15,7 @@
       "choices": [
         "cup B",
         "cup A",
-        "cups A and B are tied"
+        "cups C"
       ],
       "answer_index": 1
     },
@@ -24,7 +24,7 @@
       "choices": [
         "rope B",
         "rope A",
-        "ropes A and B are tied"
+        "rope C"
       ],
       "answer_index": 1
     },
@@ -33,7 +33,7 @@
       "choices": [
         "tower B",
         "tower A",
-        "towers A and B are tied"
+        "tower C"
       ],
       "answer_index": 1
     },
@@ -42,7 +42,7 @@
       "choices": [
         "stick B",
         "stick C",
-        "sticks B and C are tied"
+        "stick A"
       ],
       "answer_index": 1
     },
@@ -51,7 +51,7 @@
       "choices": [
         "book B",
         "book A",
-        "books A and B are tied"
+        "book C"
       ],
       "answer_index": 1
     },
@@ -60,7 +60,7 @@
       "choices": [
         "car B",
         "car A",
-        "cars A and B are tied"
+        "cars C"
       ],
       "answer_index": 1
     },
@@ -69,7 +69,7 @@
       "choices": [
         "ladder B",
         "ladder A",
-        "ladders A and B are tied"
+        "ladder C"
       ],
       "answer_index": 1
     },
@@ -78,7 +78,7 @@
       "choices": [
         "bear B",
         "bear A",
-        "bears A and B are tied"
+        "bear C"
       ],
       "answer_index": 1
     },
@@ -87,7 +87,7 @@
       "choices": [
         "balloon B",
         "balloon A",
-        "balloons A and B are tied"
+        "balloon C"
       ],
       "answer_index": 1
     },
@@ -96,7 +96,7 @@
       "choices": [
         "crayon B",
         "crayon A",
-        "crayons A and B are tied"
+        "crayon C"
       ],
       "answer_index": 1
     }

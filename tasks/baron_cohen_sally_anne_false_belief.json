@@ -11,7 +11,7 @@
       "answer_index": 1
     },
     {
-      "question": "Mia puts her cookie in a red jar and goes outside. Leo moves it to a blue jar. When Mia comes back, where will she look first?",
+      "question": "Mia puts her cookie in a red jar and goes outside. Leo moves it to a blue jar. When Mia comes back inside, where will she look first?",
       "choices": [
         "blue jar",
         "red jar",
@@ -56,7 +56,7 @@
       "answer_index": 1
     },
     {
-      "question": "Noah puts his car in a green cup and goes away. It is moved to a yellow cup. Where will Noah look first?",
+      "question": "Noah puts his car in a green cup and goes away. It is moved to a yellow cup by Peter. Where will Noah look first when he comes back?",
       "choices": [
         "yellow cup",
         "green cup",
@@ -83,7 +83,7 @@
       "answer_index": 1
     },
     {
-      "question": "Zoe puts a marble in a cup and steps out. It is moved to a bowl. Where will Zoe search first?",
+      "question": "Zoe puts a marble in a cup and steps out. It is moved to a bowl when Zoe is away. Where will Zoe search first?",
       "choices": [
         "bowl",
         "cup",
@@ -92,7 +92,7 @@
       "answer_index": 1
     },
     {
-      "question": "Max hides a toy train in the box and goes away. It is moved to the shelf. Where will Max look first?",
+      "question": "Max hides a toy train in the box and goes away. It is moved to the shelf. Where will Max look first when he comes back?",
       "choices": [
         "shelf",
         "box",
