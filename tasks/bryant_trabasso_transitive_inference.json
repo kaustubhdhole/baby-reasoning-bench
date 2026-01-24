@@ -15,7 +15,7 @@
       "choices": [
         "cup B",
         "cup A",
-        "cups C"
+        "cup C"
       ],
       "answer_index": 1
     },
@@ -60,7 +60,7 @@
       "choices": [
         "car B",
         "car A",
-        "cars C"
+        "car C"
       ],
       "answer_index": 1
     },

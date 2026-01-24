@@ -79,8 +79,6 @@ import matplotlib.pyplot as plt
 def _wrap_label(s: str, width: int = 18) -> str:
     # Wrap long labels onto multiple lines
     return "\n".join(textwrap.wrap(s, width=width, break_long_words=False, break_on_hyphens=True))
-
-
 def plot_radar(
     task_names: list[str],
     model_results: dict[str, list[float]],
@@ -97,8 +95,8 @@ def plot_radar(
     angles += angles[:1]
 
     fig, ax = plt.subplots(figsize=figsize, subplot_kw={"projection": "polar"})
-    ax.set_theta_offset(math.pi / 2)
-    ax.set_theta_direction(-1)
+    ax.set_theta_offset(math.pi / 2)   # 0° at top
+    ax.set_theta_direction(-1)         # clockwise
 
     # Make room for legend and outer labels
     fig.subplots_adjust(right=0.78, top=0.92)
@@ -111,18 +109,36 @@ def plot_radar(
     ax.set_yticks([0.2, 0.4, 0.6, 0.8, 1.0])
     ax.set_ylim(0, 1.0)
 
-    # Custom labels: wrapped + rotated + aligned by quadrant
+    # Custom labels: wrapped + rotated + aligned
+    # Requested change:
+    # - top-left labels: rotate anti-clockwise 90 (rotation -= 90)
+    # - bottom-right labels: rotate anti-clockwise 90 (rotation -= 90)
     for angle, raw in zip(angles[:-1], task_names):
         label = _wrap_label(raw, width=label_wrap_width)
 
-        # Rotate text so it roughly follows the circle, but keep it readable
-        deg = math.degrees(angle)
-        rotation = deg - 90
-        if 90 < deg < 270:
-            rotation += 180  # flip on left side
+        deg = math.degrees(angle)  # data-theta degrees (0..360)
 
-        # Horizontal alignment based on side
-        ha = "left" if (deg <= 90 or deg >= 270) else "right"
+        # Baseline rotation (tangent-ish)
+        rotation = deg - 90
+
+        # Keep labels readable (flip on left side)
+        if 90 <= deg <= 270:
+            rotation += 180
+            ha = "right"
+        else:
+            ha = "left"
+
+        # Compute where the label appears on screen after:
+        # theta_offset = +90°, theta_direction = -1  =>  display_deg = (90 - deg) mod 360
+        display_deg = (90.0 - deg) % 360.0
+
+        # Top-left quadrant on screen: 90..180
+        in_top_left = 90.0 <= display_deg <= 180.0
+        # Bottom-right quadrant on screen: 270..360 (including near 0 handled by modulo)
+        in_bottom_right = 270.0 <= display_deg <= 360.0
+
+        if in_top_left or in_bottom_right:
+            rotation -= 180  # anti-clockwise 90
 
         ax.text(
             angle,
@@ -149,7 +165,6 @@ def plot_radar(
     plt.close(fig)
 
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate Baby Reasoning Bench tasks.")
     parser.add_argument(
@@ -158,6 +173,7 @@ def main() -> None:
         default=[
             "BabyLM-community/babylm-baseline-100m-gpt2",
             "BabyLM-community/babylm-baseline-10m-gpt2",
+            #"BabyLM-community/babylm-interaction-baseline-simpo"
         ],
         help="Model names or paths to evaluate.",
     )
