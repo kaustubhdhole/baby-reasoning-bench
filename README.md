@@ -2,6 +2,10 @@
 
 BabyReasoningBench is a benchmark suite of developmentally inspired reasoning tasks designed to evaluate baby language models.
 
+## Model Performance of Baby LMs
+
+![Model Performance Radar](model_performance_radar.png)
+
 ## Citation
 
 If you use BabyReasoningBench, please cite:
@@ -14,7 +18,3 @@ If you use BabyReasoningBench, please cite:
   howpublished = {\url{https://github.com/your-org/baby-reasoning-bench}}
 }
 ```
-
-## Model Performance Radar
-
-![Model Performance Radar](model_performance_radar.png)
