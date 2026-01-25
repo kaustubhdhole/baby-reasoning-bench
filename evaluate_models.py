@@ -218,7 +218,7 @@ def main() -> None:
             print(f"{model_name} | {task['name']}: {accuracy:.2%}")
         model_results[model_name] = scores
         model_outputs[model_name] = task_outputs
-        print(json.dumps(task_outputs, indent=2))
+        #print(json.dumps(task_outputs, indent=2))
 
     plot_radar(task_names, model_results, args.output)
     print(f"Radar chart saved to {args.output}")
