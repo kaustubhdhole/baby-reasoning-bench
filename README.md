@@ -2,6 +2,30 @@
 
 BabyReasoningBench is a benchmark suite of developmentally inspired reasoning tasks designed to evaluate baby language models.
 
+## Tasks Covered
+
+| Task |
+| --- |
+| Baron Cohen Sally Anne False Belief |
+| Beck Counterfactual Possibilities |
+| Bryant Trabasso Transitive Inference |
+| Bullock Gelman Baillargeon Causal Reasoning |
+| Chen Klahr Control Of Variables |
+| Dias Harris Counterfactual Syllogism |
+| Gelman Markman Category Induction |
+| Gentner Toupin Story Analogy |
+| Gopnik Causal Learning Bayes Nets |
+| Gopnik Sobel Blicket Detector |
+| Goswami Brown Causal Analogy |
+| Harris German Mills Counterfactual Causal |
+| Holyoak Junn Billman Analogical Problem Solving |
+| Markman Seibert Class Inclusion |
+| McGarrigle Donaldson Conservation Accidents |
+| Onishi Baillargeon Violation Of Expectation |
+| Schulz Bonawitz Exploratory Play |
+| Wellman Cross Watson False Belief Battery |
+| Wimmer Perner False Belief Unexpected Transfer |
+
 ## Model Performance of Baby LMs
 
 ![Model Performance Radar](model_performance_radar.png)
