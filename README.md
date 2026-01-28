@@ -35,10 +35,13 @@ BabyReasoningBench is a benchmark suite of developmentally inspired reasoning ta
 If you use BabyReasoningBench, please cite:
 
 ```bibtex
-@misc{babyreasoningbench2026,
-  title        = {BabyReasoningBench: Generating Developmentally-Inspired Reasoning Tasks for Evaluating Baby Language Models},
-  author       = {Kaustubh Dhole},
-  year         = {2026},
-  howpublished = {\url{https://github.com/your-org/baby-reasoning-bench}}
+@misc{dhole2026babyreasoningbenchgeneratingdevelopmentallyinspiredreasoning,
+      title={BabyReasoningBench: Generating Developmentally-Inspired Reasoning Tasks for Evaluating Baby Language Models}, 
+      author={Kaustubh D. Dhole},
+      year={2026},
+      eprint={2601.18933},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.18933}, 
 }
 ```
