@@ -45,3 +45,4 @@ If you use BabyReasoningBench, please cite:
       url={https://arxiv.org/abs/2601.18933}, 
 }
 ```
+For expanding these tasks, or adding more questions, or making them multimodal, reach out, and we can do something together :)
