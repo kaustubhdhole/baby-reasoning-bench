@@ -56,6 +56,18 @@ def score_choice(
     return total_log_prob
 
 
+def _filter_choices_for_two_choice_format(qa: dict) -> list[str]:
+    choices = qa["choices"]
+    if len(choices) < 3:
+        return choices
+    if qa["answer_index"] == 2:
+        raise ValueError(
+            "Two-choice format requested, but gold answer is the third choice "
+            f"for question: {qa['question']}"
+        )
+    return choices[:2]
+
+
 def evaluate_task(
     model,
     tokenizer,
@@ -63,12 +75,18 @@ def evaluate_task(
     device: torch.device,
     *,
     length_normalize: bool,
+    two_choice_format: bool,
 ) -> tuple[float, list[dict[str, object]]]:
     correct = 0
     total = 0
     choice_outputs = []
     for qa in task["qas"]:
-        prompt = build_prompt(qa["question"], qa["choices"])
+        choices = (
+            _filter_choices_for_two_choice_format(qa)
+            if two_choice_format
+            else qa["choices"]
+        )
+        prompt = build_prompt(qa["question"], choices)
         scores = [
             score_choice(
                 model,
@@ -78,13 +96,13 @@ def evaluate_task(
                 device,
                 length_normalize=length_normalize,
             )
-            for choice in qa["choices"]
+            for choice in choices
         ]
         probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
         choice_outputs.append(
             {
                 "question": qa["question"],
-                "choices": qa["choices"],
+                "choices": choices,
                 "answer_index": qa["answer_index"],
                 "choice_probabilities": probs,
             }
@@ -217,6 +235,14 @@ def main() -> None:
         help="Normalize choice scores by token length before softmax.",
     )
     parser.add_argument(
+        "--two-choice-format",
+        action="store_true",
+        help=(
+            "Use only the first two choices for questions with three options. "
+            "Errors if the gold answer is the third choice."
+        ),
+    )
+    parser.add_argument(
         "--outputs",
         type=Path,
         default=Path("model_outputs.json"),
@@ -252,6 +278,7 @@ def main() -> None:
                 task,
                 device,
                 length_normalize=args.length_normalize,
+                two_choice_format=args.two_choice_format,
             )
             scores.append(accuracy)
             task_outputs[task["name"]] = choice_outputs
