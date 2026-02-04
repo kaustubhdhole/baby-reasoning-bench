@@ -63,10 +63,10 @@ def evaluate_task(
     device: torch.device,
     *,
     length_normalize: bool,
-) -> tuple[float, list[list[float]]]:
+) -> tuple[float, list[dict[str, object]]]:
     correct = 0
     total = 0
-    choice_probabilities = []
+    choice_outputs = []
     for qa in task["qas"]:
         prompt = build_prompt(qa["question"], qa["choices"])
         scores = [
@@ -81,13 +81,20 @@ def evaluate_task(
             for choice in qa["choices"]
         ]
         probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
-        choice_probabilities.append(probs)
+        choice_outputs.append(
+            {
+                "question": qa["question"],
+                "choices": qa["choices"],
+                "answer_index": qa["answer_index"],
+                "choice_probabilities": probs,
+            }
+        )
         predicted = int(max(range(len(scores)), key=lambda idx: scores[idx]))
         actual = qa["answer_index"]
         if predicted == actual:
             correct += 1
         total += 1
-    return (correct / total if total else math.nan), choice_probabilities
+    return (correct / total if total else math.nan), choice_outputs
 
 
 def _wrap_label(s: str, width: int = 18) -> str:
@@ -209,6 +216,12 @@ def main() -> None:
         action="store_true",
         help="Normalize choice scores by token length before softmax.",
     )
+    parser.add_argument(
+        "--outputs",
+        type=Path,
+        default=Path("model_outputs.json"),
+        help="Path to save per-question model outputs.",
+    )
     args = parser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -221,7 +234,7 @@ def main() -> None:
     task_names = [task["name"] for task in tasks]
 
     model_results: dict[str, list[float]] = {}
-    model_outputs: dict[str, dict[str, list[list[float]]]] = {}
+    model_outputs: dict[str, dict[str, list[dict[str, object]]]] = {}
     for model_name in args.models:
         print(f"Loading {model_name}...")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -231,9 +244,9 @@ def main() -> None:
         model.eval()
 
         scores = []
-        task_outputs: dict[str, list[list[float]]] = {}
+        task_outputs: dict[str, list[dict[str, object]]] = {}
         for task in tasks:
-            accuracy, choice_probabilities = evaluate_task(
+            accuracy, choice_outputs = evaluate_task(
                 model,
                 tokenizer,
                 task,
@@ -241,14 +254,15 @@ def main() -> None:
                 length_normalize=args.length_normalize,
             )
             scores.append(accuracy)
-            task_outputs[task["name"]] = choice_probabilities
+            task_outputs[task["name"]] = choice_outputs
             print(f"{model_name} | {task['name']}: {accuracy:.2%}")
         model_results[model_name] = scores
         model_outputs[model_name] = task_outputs
 
     plot_radar(task_names, model_results, args.output)
     print(f"Radar chart saved to {args.output}")
-    print(json.dumps(model_outputs, indent=2))
+    args.outputs.write_text(json.dumps(model_outputs, indent=2), encoding="utf-8")
+    print(f"Model outputs saved to {args.outputs}")
 
 
 if __name__ == "__main__":
