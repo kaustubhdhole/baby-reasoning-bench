@@ -3,6 +3,7 @@
 import argparse
 import json
 import math
+import textwrap
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -25,10 +26,6 @@ def build_prompt(question: str, choices: list[str]) -> str:
     ])
 
 
-def format_choice(choice: str, index: int) -> str:
-    return f"{chr(65 + index)}) {choice}"
-
-
 def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.device) -> float:
     full_text = f"{prompt} {choice}"
     prompt_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
@@ -48,37 +45,36 @@ def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.devic
     return token_log_probs.sum().item()
 
 
-def evaluate_task(model, tokenizer, task: dict, device: torch.device) -> tuple[float, list[dict]]:
+def evaluate_task(
+    model,
+    tokenizer,
+    task: dict,
+    device: torch.device,
+) -> tuple[float, list[list[float]]]:
     correct = 0
     total = 0
-    answers = []
+    choice_probabilities = []
     for qa in task["qas"]:
         prompt = build_prompt(qa["question"], qa["choices"])
         scores = [
             score_choice(model, tokenizer, prompt, choice, device)
             for choice in qa["choices"]
         ]
+        probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
+        choice_probabilities.append(probs)
         predicted = int(max(range(len(scores)), key=lambda idx: scores[idx]))
         actual = qa["answer_index"]
-        answers.append({
-            "pred": format_choice(qa["choices"][predicted], predicted),
-            "actual": format_choice(qa["choices"][actual], actual),
-        })
         if predicted == actual:
             correct += 1
         total += 1
-    return (correct / total if total else math.nan), answers
-
-import math
-import textwrap
-from pathlib import Path
-
-import matplotlib.pyplot as plt
+    return (correct / total if total else math.nan), choice_probabilities
 
 
 def _wrap_label(s: str, width: int = 18) -> str:
     # Wrap long labels onto multiple lines
     return "\n".join(textwrap.wrap(s, width=width, break_long_words=False, break_on_hyphens=True))
+
+
 def plot_radar(
     task_names: list[str],
     model_results: dict[str, list[float]],
@@ -200,7 +196,7 @@ def main() -> None:
     task_names = [task["name"] for task in tasks]
 
     model_results: dict[str, list[float]] = {}
-    model_outputs: dict[str, dict[str, dict[str, list[dict]]]] = {}
+    model_outputs: dict[str, dict[str, list[list[float]]]] = {}
     for model_name in args.models:
         print(f"Loading {model_name}...")
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -210,18 +206,18 @@ def main() -> None:
         model.eval()
 
         scores = []
-        task_outputs: dict[str, dict[str, list[dict]]] = {}
+        task_outputs: dict[str, list[list[float]]] = {}
         for task in tasks:
-            accuracy, answers = evaluate_task(model, tokenizer, task, device)
+            accuracy, choice_probabilities = evaluate_task(model, tokenizer, task, device)
             scores.append(accuracy)
-            task_outputs[task["name"]] = {"answers": answers}
+            task_outputs[task["name"]] = choice_probabilities
             print(f"{model_name} | {task['name']}: {accuracy:.2%}")
         model_results[model_name] = scores
         model_outputs[model_name] = task_outputs
-        #print(json.dumps(task_outputs, indent=2))
 
     plot_radar(task_names, model_results, args.output)
     print(f"Radar chart saved to {args.output}")
+    print(json.dumps(model_outputs, indent=2))
 
 
 if __name__ == "__main__":
