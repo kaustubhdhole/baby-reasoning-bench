@@ -26,7 +26,15 @@ def build_prompt(question: str, choices: list[str]) -> str:
     ])
 
 
-def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.device) -> float:
+def score_choice(
+    model,
+    tokenizer,
+    prompt: str,
+    choice: str,
+    device: torch.device,
+    *,
+    length_normalize: bool,
+) -> float:
     full_text = f"{prompt} {choice}"
     prompt_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
     full_ids = tokenizer(full_text, return_tensors="pt").input_ids.to(device)
@@ -42,7 +50,10 @@ def score_choice(model, tokenizer, prompt: str, choice: str, device: torch.devic
     choice_target_ids = target_ids[:, prompt_len - 1 :]
 
     token_log_probs = choice_log_probs.gather(2, choice_target_ids.unsqueeze(-1)).squeeze(-1)
-    return token_log_probs.sum().item()
+    total_log_prob = token_log_probs.sum().item()
+    if length_normalize:
+        return total_log_prob / token_log_probs.numel()
+    return total_log_prob
 
 
 def evaluate_task(
@@ -50,6 +61,8 @@ def evaluate_task(
     tokenizer,
     task: dict,
     device: torch.device,
+    *,
+    length_normalize: bool,
 ) -> tuple[float, list[list[float]]]:
     correct = 0
     total = 0
@@ -57,7 +70,14 @@ def evaluate_task(
     for qa in task["qas"]:
         prompt = build_prompt(qa["question"], qa["choices"])
         scores = [
-            score_choice(model, tokenizer, prompt, choice, device)
+            score_choice(
+                model,
+                tokenizer,
+                prompt,
+                choice,
+                device,
+                length_normalize=length_normalize,
+            )
             for choice in qa["choices"]
         ]
         probs = torch.softmax(torch.tensor(scores), dim=0).tolist()
@@ -184,6 +204,11 @@ def main() -> None:
         default=Path("model_performance_radar.png"),
         help="Path to save the radar chart.",
     )
+    parser.add_argument(
+        "--length-normalize",
+        action="store_true",
+        help="Normalize choice scores by token length before softmax.",
+    )
     args = parser.parse_args()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -208,7 +233,13 @@ def main() -> None:
         scores = []
         task_outputs: dict[str, list[list[float]]] = {}
         for task in tasks:
-            accuracy, choice_probabilities = evaluate_task(model, tokenizer, task, device)
+            accuracy, choice_probabilities = evaluate_task(
+                model,
+                tokenizer,
+                task,
+                device,
+                length_normalize=args.length_normalize,
+            )
             scores.append(accuracy)
             task_outputs[task["name"]] = choice_probabilities
             print(f"{model_name} | {task['name']}: {accuracy:.2%}")
