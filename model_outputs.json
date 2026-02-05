@@ -1,0 +1,5894 @@
+{
+  "BabyLM-community/babylm-baseline-100m-gpt2": {
+    "false-belief-sally-anne": [
+      {
+        "question": "In a puppet show, Sally hides a toy in her bag and leaves. Anne moves it to her own box. Where will Sally search when she comes back?",
+        "choices": [
+          "Anne's box",
+          "her bag",
+          "both locations"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9835457801818848,
+          0.010122625157237053,
+          0.006331586744636297
+        ]
+      },
+      {
+        "question": "Mia puts her cookie in a red jar and goes outside. Leo moves it to a blue jar. When Mia comes back inside, where will she look first?",
+        "choices": [
+          "blue jar",
+          "red jar",
+          "both jars"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6168023943901062,
+          0.31352710723876953,
+          0.06967052817344666
+        ]
+      },
+      {
+        "question": "Ben hides his ball under the bed, then leaves. While he is away, it is moved to the closet. Where will Ben look when he returns?",
+        "choices": [
+          "closet",
+          "under the bed",
+          "both places"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.016678789630532265,
+          0.7989675998687744,
+          0.1843535602092743
+        ]
+      },
+      {
+        "question": "Ava puts her toy in the toy box and goes to lunch. Dad moves it to the shelf. Where will Ava search first after lunch?",
+        "choices": [
+          "shelf",
+          "toy box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.021979782730340958,
+          0.2710084021091461,
+          0.707011878490448
+        ]
+      },
+      {
+        "question": "Sam places a sticker in his backpack, then goes to the park. His sister moves it to a drawer. Where will Sam look first?",
+        "choices": [
+          "drawer",
+          "backpack",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.023071367293596268,
+          0.30631786584854126,
+          0.6706107258796692
+        ]
+      },
+      {
+        "question": "Lily puts a doll in the basket and leaves. The doll is moved to the bed. When Lily returns, where will she check first?",
+        "choices": [
+          "bed",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1685148924589157,
+          0.08436233550310135,
+          0.7471227645874023
+        ]
+      },
+      {
+        "question": "Noah puts his car in a green cup and goes away. It is moved to a yellow cup by Peter. Where will Noah look first when he comes back?",
+        "choices": [
+          "yellow cup",
+          "green cup",
+          "both cups"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.17258496582508087,
+          0.753578245639801,
+          0.07383676618337631
+        ]
+      },
+      {
+        "question": "Ivy puts her blocks in the closet and leaves. Her brother moves them to the table. Where will Ivy look first?",
+        "choices": [
+          "table",
+          "closet",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4861468970775604,
+          0.006807388737797737,
+          0.5070457458496094
+        ]
+      },
+      {
+        "question": "Owen hides a ring in a shoe and leaves. The ring is moved to a drawer. When Owen comes back, where will he look first?",
+        "choices": [
+          "drawer",
+          "shoe",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.024426033720374107,
+          0.2122843712568283,
+          0.7632896304130554
+        ]
+      },
+      {
+        "question": "Zoe puts a marble in a cup and steps out. It is moved to a bowl when Zoe is away. Where will Zoe search first?",
+        "choices": [
+          "bowl",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09809261560440063,
+          0.7713819146156311,
+          0.13052542507648468
+        ]
+      },
+      {
+        "question": "Max hides a toy train in the box and goes away. It is moved to the shelf. Where will Max look first when he comes back?",
+        "choices": [
+          "shelf",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.023395420983433723,
+          0.3969360888004303,
+          0.5796685218811035
+        ]
+      }
+    ],
+    "counterfactual-possibilities": [
+      {
+        "question": "The picnic was canceled because it rained. If it had not rained, what could have happened instead?",
+        "choices": [
+          "the picnic was still canceled",
+          "the picnic went ahead as planned",
+          "both outcomes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1462908536195755,
+          0.32779863476753235,
+          0.5259105563163757
+        ]
+      },
+      {
+        "question": "The parade stopped because it started to snow. If it had not snowed, what could have happened?",
+        "choices": [
+          "the parade was still stopped",
+          "the parade continued",
+          "both outcomes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.08330618590116501,
+          0.7230050563812256,
+          0.19368880987167358
+        ]
+      },
+      {
+        "question": "The game was canceled because the coach was sick. If the coach had not been sick, what could have happened?",
+        "choices": [
+          "the game was still canceled",
+          "the game was played",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006004777271300554,
+          0.6681746244430542,
+          0.32582059502601624
+        ]
+      },
+      {
+        "question": "The picnic ended early because it got dark. If it had stayed light, what could have happened?",
+        "choices": [
+          "the picnic still ended early",
+          "the picnic could have gone longer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.038805097341537476,
+          0.1444588005542755,
+          0.816736102104187
+        ]
+      },
+      {
+        "question": "The story time was quiet because the kids were sleepy. If they had not been sleepy, what could have happened?",
+        "choices": [
+          "story time was still quiet",
+          "they could have talked more",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.014782785438001156,
+          0.29984140396118164,
+          0.6853758096694946
+        ]
+      },
+      {
+        "question": "The sandcastle fell because a big wave hit it. If the wave had not come, what could have happened?",
+        "choices": [
+          "the sandcastle still fell",
+          "the sandcastle could have stayed up",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8699226975440979,
+          0.040317047387361526,
+          0.0897602066397667
+        ]
+      },
+      {
+        "question": "The kite would not fly because there was no wind. If there had been wind, what could have happened?",
+        "choices": [
+          "the kite still would not fly",
+          "the kite could have flown",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3743804693222046,
+          0.4027270972728729,
+          0.22289243340492249
+        ]
+      },
+      {
+        "question": "The puddle formed because it rained hard. If it had not rained, what could have happened?",
+        "choices": [
+          "the puddle still formed",
+          "the ground could have stayed dry",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8267855048179626,
+          0.0034908882807940245,
+          0.16972360014915466
+        ]
+      },
+      {
+        "question": "The cake burned because it was left in too long. If it had not been left in too long, what could have happened?",
+        "choices": [
+          "the cake still burned",
+          "the cake could have baked okay",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6090837121009827,
+          0.005087129306048155,
+          0.3858291506767273
+        ]
+      },
+      {
+        "question": "The toy boat sank because it had a hole. If it did not have a hole, what could have happened?",
+        "choices": [
+          "the boat still sank",
+          "the boat could have floated",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5144649147987366,
+          0.20737217366695404,
+          0.2781628370285034
+        ]
+      },
+      {
+        "question": "The flower wilted because no one watered it. If it had been watered, what could have happened?",
+        "choices": [
+          "the flower still wilted",
+          "the flower could have stayed fresh",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9450713396072388,
+          0.0167617779225111,
+          0.038166966289281845
+        ]
+      }
+    ],
+    "transitive-inference": [
+      {
+        "question": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest?",
+        "choices": [
+          "stick B",
+          "stick A",
+          "stick C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.46135130524635315,
+          0.47182825207710266,
+          0.06682043522596359
+        ]
+      },
+      {
+        "question": "If cup A is taller than cup B, and cup B is taller than cup C, which cup is tallest?",
+        "choices": [
+          "cup B",
+          "cup A",
+          "cup C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.584754228591919,
+          0.22696152329444885,
+          0.1882842481136322
+        ]
+      },
+      {
+        "question": "If rope A is longer than rope B, and rope B is longer than rope C, which rope is longest?",
+        "choices": [
+          "rope B",
+          "rope A",
+          "rope C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3708275556564331,
+          0.4788587987422943,
+          0.1503136157989502
+        ]
+      },
+      {
+        "question": "If tower A is higher than tower B, and tower B is higher than tower C, which tower is highest?",
+        "choices": [
+          "tower B",
+          "tower A",
+          "tower C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4977734684944153,
+          0.16895349323749542,
+          0.3332729935646057
+        ]
+      },
+      {
+        "question": "If stick A is shorter than stick B, and stick B is shorter than stick C, which stick is longest?",
+        "choices": [
+          "stick B",
+          "stick C",
+          "stick A"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.44343137741088867,
+          0.08708532899618149,
+          0.469483345746994
+        ]
+      },
+      {
+        "question": "If book A is thicker than book B, and book B is thicker than book C, which book is thickest?",
+        "choices": [
+          "book B",
+          "book A",
+          "book C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3864489495754242,
+          0.5415789484977722,
+          0.0719720870256424
+        ]
+      },
+      {
+        "question": "If toy car A is faster than toy car B, and toy car B is faster than toy car C, which car is fastest?",
+        "choices": [
+          "car B",
+          "car A",
+          "car C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.35504788160324097,
+          0.5175243616104126,
+          0.12742777168750763
+        ]
+      },
+      {
+        "question": "If ladder A is taller than ladder B, and ladder B is taller than ladder C, which ladder is tallest?",
+        "choices": [
+          "ladder B",
+          "ladder A",
+          "ladder C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.47943204641342163,
+          0.1922207772731781,
+          0.32834723591804504
+        ]
+      },
+      {
+        "question": "If bear A is bigger than bear B, and bear B is bigger than bear C, which bear is biggest?",
+        "choices": [
+          "bear B",
+          "bear A",
+          "bear C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5625545382499695,
+          0.4000126123428345,
+          0.03743286803364754
+        ]
+      },
+      {
+        "question": "If balloon A is higher than balloon B, and balloon B is higher than balloon C, which balloon is highest?",
+        "choices": [
+          "balloon B",
+          "balloon A",
+          "balloon C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7576583027839661,
+          0.1725548356771469,
+          0.06978683918714523
+        ]
+      },
+      {
+        "question": "If crayon A is longer than crayon B, and crayon B is longer than crayon C, which crayon is longest?",
+        "choices": [
+          "crayon B",
+          "crayon A",
+          "crayon C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3232154846191406,
+          0.5781376957893372,
+          0.09864681214094162
+        ]
+      }
+    ],
+    "physical-cause-effect": [
+      {
+        "question": "A ball hits a switch and the light turns on. If the ball never hits the switch, can the light still turn on by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2628660202026367,
+          0.6689136028289795,
+          0.06822042912244797
+        ]
+      },
+      {
+        "question": "A toy car bumps a button and the music plays. If the car never bumps the button, will the music play by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.30175670981407166,
+          0.6017054319381714,
+          0.09653779119253159
+        ]
+      },
+      {
+        "question": "A hand presses a bell and it rings. If the hand does not press it, can the bell ring on its own?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32663172483444214,
+          0.5744112133979797,
+          0.0989571213722229
+        ]
+      },
+      {
+        "question": "A ball knocks over a block tower and it falls. If the ball does not hit it, will the tower fall by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22827662527561188,
+          0.698055624961853,
+          0.0736677274107933
+        ]
+      },
+      {
+        "question": "A finger flips a switch and the fan starts. If no one flips the switch, can the fan start by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2355785071849823,
+          0.6077651381492615,
+          0.15665635466575623
+        ]
+      },
+      {
+        "question": "A dog pushes a door and it opens. If the dog does not push it, will the door open by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3226844072341919,
+          0.5833402872085571,
+          0.09397532790899277
+        ]
+      },
+      {
+        "question": "A marble hits a lever and a toy pops up. If the marble never hits the lever, will the toy pop up by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22337961196899414,
+          0.7123525738716125,
+          0.06426786631345749
+        ]
+      },
+      {
+        "question": "A spoon taps a xylophone bar and it makes a sound. If the spoon never taps it, can the sound happen by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.33489394187927246,
+          0.49104923009872437,
+          0.1740567833185196
+        ]
+      },
+      {
+        "question": "A child steps on a pedal and bubbles start. If the child does not step, will bubbles start anyway?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.31647467613220215,
+          0.5733221173286438,
+          0.11020319908857346
+        ]
+      },
+      {
+        "question": "A wind-up key is turned and the toy walks. If no one turns the key, will it walk on its own?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.25918078422546387,
+          0.66317218542099,
+          0.07764700055122375
+        ]
+      },
+      {
+        "question": "A cup is tipped and water spills out. If the cup is not tipped, will the water spill by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2938559651374817,
+          0.6291152834892273,
+          0.07702875137329102
+        ]
+      }
+    ],
+    "control-of-variables-strategy": [
+      {
+        "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test?",
+        "choices": [
+          "change the color of the ball",
+          "change the weight of the ball",
+          "change the color and weight of the ball"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.07736330479383469,
+          0.9109067916870117,
+          0.011729964055120945
+        ]
+      },
+      {
+        "question": "You want to know if a bigger sail makes a toy boat go faster. What should you do?",
+        "choices": [
+          "change only the water",
+          "change only the sail size",
+          "change only the sail color"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8566543459892273,
+          0.1378655582666397,
+          0.005480004940181971
+        ]
+      },
+      {
+        "question": "You want to know if a toy car goes farther with smoother wheels. What is the best test?",
+        "choices": [
+          "change only the track",
+          "change only the wheels",
+          "change only the driver"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22625389695167542,
+          0.5554860830307007,
+          0.2182600349187851
+        ]
+      },
+      {
+        "question": "You want to know if a plant grows taller with more light. What should you do?",
+        "choices": [
+          "change only the soil",
+          "change only the light",
+          "change only the water"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.280756413936615,
+          0.277726948261261,
+          0.441516637802124
+        ]
+      },
+      {
+        "question": "You want to know if a louder clap makes the toy jump higher. What should you do?",
+        "choices": [
+          "change only the toy",
+          "change only the clap",
+          "change only the floor"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7015393972396851,
+          0.00023875900660641491,
+          0.2982219159603119
+        ]
+      },
+      {
+        "question": "You want to know if a heavier book makes a stack fall. What should you do?",
+        "choices": [
+          "change only the table",
+          "change only the book",
+          "change only the stack"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24914692342281342,
+          0.7088822722434998,
+          0.04197075217962265
+        ]
+      },
+      {
+        "question": "You want to know if warm water melts ice faster. What should you do?",
+        "choices": [
+          "change the water and the cup",
+          "change only the water temperature",
+          "change the water and the ice size"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9821765422821045,
+          0.01683005690574646,
+          0.000993297784589231
+        ]
+      },
+      {
+        "question": "You want to know if a longer ramp makes a ball roll farther. What should you do?",
+        "choices": [
+          "change the ramp and the ball",
+          "change only the ramp length",
+          "change the ramp and the floor"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8783517479896545,
+          0.01041397638618946,
+          0.11123421043157578
+        ]
+      },
+      {
+        "question": "You want to know if a stronger push makes the swing go higher. What should you do?",
+        "choices": [
+          "change the push and the swing",
+          "change only the push",
+          "change the push and the seat"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9070682525634766,
+          0.006423868238925934,
+          0.0865078791975975
+        ]
+      },
+      {
+        "question": "You want to know if a thicker crayon makes darker marks. What should you do?",
+        "choices": [
+          "change the crayon and the paper",
+          "change only the crayon thickness",
+          "change the crayon and the color"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6958998441696167,
+          0.01500784419476986,
+          0.2890922427177429
+        ]
+      },
+      {
+        "question": "You want to know if a taller tower falls sooner. What should you do?",
+        "choices": [
+          "change the tower and the blocks",
+          "change only the tower height",
+          "change the tower and the table"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9843554496765137,
+          4.475065361475572e-05,
+          0.015599864535033703
+        ]
+      }
+    ],
+    "counterfactual-syllogism-pretend": [
+      {
+        "question": "In a pretend world where all bears can fly, and Teddy is a bear, can Teddy fly?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.818899929523468,
+          0.18110008537769318
+        ]
+      },
+      {
+        "question": "In a pretend world where all fish can talk, and Goldie is a fish, can Goldie talk?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8482993841171265,
+          0.15170058608055115
+        ]
+      },
+      {
+        "question": "In a pretend world where all cats are blue, and Muffin is a cat, what color is Muffin?",
+        "choices": [
+          "white",
+          "blue"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4798576235771179,
+          0.5201423764228821
+        ]
+      },
+      {
+        "question": "In a pretend world where all cars can fly, and this car is a car, can it fly?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8705340623855591,
+          0.1294659823179245
+        ]
+      },
+      {
+        "question": "In a pretend world where all flowers sing, and Daisy is a flower, does Daisy sing?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.823185384273529,
+          0.17681458592414856
+        ]
+      },
+      {
+        "question": "In a pretend world where all frogs are purple, and Freddy is a frog, what color is Freddy?",
+        "choices": [
+          "green",
+          "purple"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9528530836105347,
+          0.047146957367658615
+        ]
+      },
+      {
+        "question": "In a pretend world where all trucks are tiny, and this truck is a truck, is it tiny?",
+        "choices": [
+          "no",
+          "yes",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7288437485694885,
+          0.2440045028924942,
+          0.027151742950081825
+        ]
+      },
+      {
+        "question": "In a pretend world where all birds swim, and Pip is a bird, can Pip swim?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7950000166893005,
+          0.20499996840953827
+        ]
+      },
+      {
+        "question": "In a pretend world where all bears are striped, and Beara is a bear, is Beara striped?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8024807572364807,
+          0.19751927256584167
+        ]
+      },
+      {
+        "question": "In a pretend world where all cups are made of candy, and this cup is a cup, is it made of candy?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7999492883682251,
+          0.2000507414340973
+        ]
+      },
+      {
+        "question": "In a pretend world where all rabbits wear hats, and Ruby is a rabbit, does Ruby wear a hat?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7875820994377136,
+          0.21241793036460876
+        ]
+      }
+    ],
+    "category-based-induction": [
+      {
+        "question": "A robin has a special food called 'dax' to feed its babies. Which is more likely to also use dax: a sparrow (another bird) or a butterfly (looks similar but is an insect)?",
+        "choices": [
+          "butterfly",
+          "sparrow",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2251494973897934,
+          0.23612505197525024,
+          0.5387253761291504
+        ]
+      },
+      {
+        "question": "A dog has a tiny bone inside its ear. Which is more likely to also have a tiny ear bone: a cat (another animal) or a robot that looks like a dog?",
+        "choices": [
+          "robot",
+          "cat",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0037488967645913363,
+          0.8994110226631165,
+          0.09684008359909058
+        ]
+      },
+      {
+        "question": "A whale has a special fat called zorp inside. Which is more likely to have zorp: a dolphin (another sea mammal) or a shark (looks similar but is a fish)?",
+        "choices": [
+          "shark",
+          "dolphin",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1719728410243988,
+          0.0825413316488266,
+          0.7454858422279358
+        ]
+      },
+      {
+        "question": "A cow has a type of blood called mip. Which is more likely to also have mip: a goat (another farm animal) or a horse toy that looks like a horse?",
+        "choices": [
+          "horse toy",
+          "goat",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006933777593076229,
+          0.8776295781135559,
+          0.1154366210103035
+        ]
+      },
+      {
+        "question": "A lizard has a special skin called dorb. Which is more likely to have dorb: a snake (another reptile) or a worm (looks a bit like a snake)?",
+        "choices": [
+          "worm",
+          "snake",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.08005985617637634,
+          0.48808565735816956,
+          0.4318545162677765
+        ]
+      },
+      {
+        "question": "A duck has a food called nif for its babies. Which is more likely to also use nif: a goose (another bird) or a bat (flies but is a mammal)?",
+        "choices": [
+          "bat",
+          "goose",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.05400129780173302,
+          0.5656495094299316,
+          0.38034915924072266
+        ]
+      },
+      {
+        "question": "A turtle has a little organ called tav. Which is more likely to have tav: a tortoise (another reptile) or a crab (has a shell)?",
+        "choices": [
+          "crab",
+          "tortoise",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.03562702611088753,
+          0.6402064561843872,
+          0.32416650652885437
+        ]
+      },
+      {
+        "question": "A bee has a special juice called pim. Which is more likely to have pim: a wasp (another insect) or a hummingbird (flies too)?",
+        "choices": [
+          "hummingbird",
+          "wasp",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.051901381462812424,
+          0.7047149538993835,
+          0.24338370561599731
+        ]
+      },
+      {
+        "question": "A frog has a sound called zum in its throat. Which is more likely to also have zum: a toad (another amphibian) or a fish (lives in water)?",
+        "choices": [
+          "fish",
+          "toad",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.02941303513944149,
+          0.8843591213226318,
+          0.08622781932353973
+        ]
+      },
+      {
+        "question": "A lion has a special tooth called keb. Which is more likely to also have keb: a tiger (another big cat) or a dog (looks less like a cat)?",
+        "choices": [
+          "dog",
+          "tiger",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5401087403297424,
+          0.34505102038383484,
+          0.11484015733003616
+        ]
+      },
+      {
+        "question": "A parrot has a feather called lod. Which is more likely to also have lod: a pigeon (another bird) or a butterfly (has wings)?",
+        "choices": [
+          "butterfly",
+          "pigeon",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24203409254550934,
+          0.1329086273908615,
+          0.6250573396682739
+        ]
+      }
+    ],
+    "story-analogy-relational-shift": [
+      {
+        "question": "Base story: A small knight cannot lift a heavy gate alone, so he asks two friends to lift together. New story: A small robot cannot move a heavy crate alone. What should the robot do to solve the problem?",
+        "choices": [
+          "try to lift it alone",
+          "ask two helpers to lift together",
+          "ask one helper and also try alone"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.15051186084747314,
+          0.8493841886520386,
+          0.00010396336438134313
+        ]
+      },
+      {
+        "question": "Base story: A little mouse cannot move a big cheese alone, so she gets two friends to push together. New story: A little puppy cannot move a big ball alone. What should the puppy do?",
+        "choices": [
+          "push alone",
+          "get two friends to push together",
+          "get one friend and push alone"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.013114421628415585,
+          0.9781091213226318,
+          0.008776413276791573
+        ]
+      },
+      {
+        "question": "Base story: A bird cannot reach a high branch, so it stands on a box. New story: A child cannot reach a high shelf. What should the child do?",
+        "choices": [
+          "jump only",
+          "stand on a box or stool",
+          "ask and also jump"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8002757430076599,
+          0.16067315638065338,
+          0.03905106335878372
+        ]
+      },
+      {
+        "question": "Base story: A turtle crosses a pond by riding on a log. New story: A toy car needs to cross a puddle. What should it do?",
+        "choices": [
+          "drive into the water",
+          "ride on something that floats",
+          "drive and float"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.11884253472089767,
+          0.12526731193065643,
+          0.7558901906013489
+        ]
+      },
+      {
+        "question": "Base story: A boy shares his snack so everyone has some. New story: A girl has one big cookie and three friends. What should she do?",
+        "choices": [
+          "keep it all",
+          "share it into pieces",
+          "share and keep half"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9908952713012695,
+          0.009060202166438103,
+          4.458790135686286e-05
+        ]
+      },
+      {
+        "question": "Base story: A dog opens a gate by pulling a rope. New story: A robot needs to open a door with a handle. What should it do?",
+        "choices": [
+          "push the door only",
+          "pull the handle",
+          "push and pull"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.040537457913160324,
+          0.671713650226593,
+          0.28774887323379517
+        ]
+      },
+      {
+        "question": "Base story: A train gets over a hill by using a helper engine. New story: A toy truck cannot climb a steep ramp. What should it do?",
+        "choices": [
+          "try alone",
+          "use a helper to push",
+          "try alone and then push"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.913905918598175,
+          0.023868948221206665,
+          0.062225062400102615
+        ]
+      },
+      {
+        "question": "Base story: A girl carries water in a bucket with a lid so it does not spill. New story: A boy carries paint in a cup. What should he do?",
+        "choices": [
+          "carry without a lid",
+          "use a lid to keep it in",
+          "use a lid and shake it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3637331426143646,
+          0.08715569972991943,
+          0.5491111874580383
+        ]
+      },
+      {
+        "question": "Base story: A frog crosses a road safely by waiting for the red light to stop cars. New story: A child wants to cross a busy street. What should the child do?",
+        "choices": [
+          "run across anytime",
+          "wait for the walk sign",
+          "run and wait"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.000490073231048882,
+          0.08772166073322296,
+          0.911788284778595
+        ]
+      },
+      {
+        "question": "Base story: A bee reaches the flower by flying around a wall. New story: A ball needs to get to the other side of a box. What should you do?",
+        "choices": [
+          "push through the box",
+          "move around the box",
+          "push and move around"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.014266949146986008,
+          0.9602010250091553,
+          0.025532083585858345
+        ]
+      },
+      {
+        "question": "Base story: A fox gets food by digging under a fence. New story: A puppy wants to get a ball stuck behind a small fence. What should the puppy do?",
+        "choices": [
+          "jump into the fence",
+          "dig or go under",
+          "jump and dig"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.12917570769786835,
+          0.18215356767177582,
+          0.6886707544326782
+        ]
+      }
+    ],
+    "causal-structure-learning": [
+      {
+        "question": "When lever Y is pulled, the toy lights up. When lever X is pulled alone, nothing happens. When both X and Y are pulled, it still lights up. Which lever is the likely cause?",
+        "choices": [
+          "lever X",
+          "lever Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5610296130180359,
+          0.13210022449493408,
+          0.3068702220916748
+        ]
+      },
+      {
+        "question": "When button A is pressed, nothing happens. When button B is pressed, the light turns on. When both are pressed, it still turns on. Which button is the likely cause?",
+        "choices": [
+          "button A",
+          "button B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6603369116783142,
+          0.17880034446716309,
+          0.16086269915103912
+        ]
+      },
+      {
+        "question": "When switch X is flipped, the toy stays quiet. When switch Y is flipped, the toy sings. When both are flipped, it sings. Which switch is the cause?",
+        "choices": [
+          "switch X",
+          "switch Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.48878395557403564,
+          0.21762755513191223,
+          0.29358839988708496
+        ]
+      },
+      {
+        "question": "When lever 1 is pulled, nothing happens. When lever 2 is pulled, bubbles start. When both are pulled, bubbles start. Which lever causes bubbles?",
+        "choices": [
+          "lever 1",
+          "lever 2",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.21137112379074097,
+          0.7307114601135254,
+          0.05791739746928215
+        ]
+      },
+      {
+        "question": "When pad A is stepped on, nothing happens. When pad B is stepped on, a bell rings. When both are stepped on, it rings. Which pad causes the bell?",
+        "choices": [
+          "pad A",
+          "pad B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5863654017448425,
+          0.3906709849834442,
+          0.022963592782616615
+        ]
+      },
+      {
+        "question": "When knob A is turned, the motor stays off. When knob B is turned, the motor starts. When both are turned, the motor starts. Which knob is the cause?",
+        "choices": [
+          "knob A",
+          "knob B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7344377636909485,
+          0.23512117564678192,
+          0.03044108860194683
+        ]
+      },
+      {
+        "question": "When tile A is pressed, no sound plays. When tile B is pressed, music plays. When both are pressed, music plays. Which tile is the cause?",
+        "choices": [
+          "tile A",
+          "tile B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8027867674827576,
+          0.17007187008857727,
+          0.027141420170664787
+        ]
+      },
+      {
+        "question": "When button X is pushed, no light appears. When button Y is pushed, a light appears. When both are pushed, the light appears. Which button causes the light?",
+        "choices": [
+          "button X",
+          "button Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8603343367576599,
+          0.04044611006975174,
+          0.09921954572200775
+        ]
+      },
+      {
+        "question": "When slider A is moved, nothing happens. When slider B is moved, the fan turns on. When both are moved, the fan turns on. Which slider causes the fan?",
+        "choices": [
+          "slider A",
+          "slider B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2149650901556015,
+          0.3960477411746979,
+          0.3889872431755066
+        ]
+      },
+      {
+        "question": "When key A is turned, no light shows. When key B is turned, the light shows. When both are turned, the light shows. Which key causes the light?",
+        "choices": [
+          "key A",
+          "key B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5678861141204834,
+          0.16993257403373718,
+          0.2621813714504242
+        ]
+      },
+      {
+        "question": "When flap A is lifted, nothing happens. When flap B is lifted, a toy jumps. When both are lifted, the toy jumps. Which flap causes the jump?",
+        "choices": [
+          "flap A",
+          "flap B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.49806487560272217,
+          0.028826290741562843,
+          0.47310879826545715
+        ]
+      }
+    ],
+    "blicket-detector-inference": [
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block A is placed on the machine, nothing happens. When block B is placed alone, it lights up. When A and B are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block A",
+          "block B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.49626079201698303,
+          0.4164731204509735,
+          0.08726605027914047
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block C is placed on the machine, nothing happens. When block D is placed alone, it lights up. When C and D are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block C",
+          "block D",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4427476227283478,
+          0.47917652130126953,
+          0.07807578146457672
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block E is placed on the machine, it lights up. When block F is placed alone, nothing happens. When E and F are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block F",
+          "block E",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.18671327829360962,
+          0.7157179117202759,
+          0.09756889939308167
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block G is placed alone, nothing happens. When block H is placed alone, it lights up. When G and H are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block G",
+          "block H",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.41240429878234863,
+          0.3444587290287018,
+          0.2431369125843048
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block J is placed alone, it lights up. When block K is placed alone, nothing happens. When J and K are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block K",
+          "block J",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.38842615485191345,
+          0.5066070556640625,
+          0.10496686398983002
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block L is placed alone, nothing happens. When block M is placed alone, it lights up. When L and M are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block L",
+          "block M",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8287754058837891,
+          0.06869835406541824,
+          0.10252614319324493
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block N is placed alone, it lights up. When block P is placed alone, nothing happens. When N and P are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block P",
+          "block N",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2929568290710449,
+          0.53520667552948,
+          0.17183654010295868
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block R is placed alone, nothing happens. When block S is placed alone, it lights up. When R and S are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block R",
+          "block S",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3891648054122925,
+          0.5136995315551758,
+          0.09713554382324219
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block T is placed alone, it lights up. When block U is placed alone, nothing happens. When T and U are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block U",
+          "block T",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5150231719017029,
+          0.3910149931907654,
+          0.09396189451217651
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block V is placed alone, nothing happens. When block W is placed alone, it lights up. When V and W are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block V",
+          "block W",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.301947683095932,
+          0.520810067653656,
+          0.17724217474460602
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block Y is placed alone, it lights up. When block Z is placed alone, nothing happens. When Y and Z are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block Z",
+          "block Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.41243112087249756,
+          0.4900141954421997,
+          0.09755467623472214
+        ]
+      }
+    ],
+    "simple-causal-analogy": [
+      {
+        "question": "Chocolate melts in the heat. Snowman melts in the heat. What does ice do in the heat?",
+        "choices": [
+          "freezes",
+          "melts",
+          "both freezes and melts"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3147110342979431,
+          0.6704592704772949,
+          0.014829669147729874
+        ]
+      },
+      {
+        "question": "Butter melts in heat. Wax melts in heat. What does ice do in heat?",
+        "choices": [
+          "freezes",
+          "melts",
+          "both freezes and melts"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32212385535240173,
+          0.673943817615509,
+          0.0039322227239608765
+        ]
+      },
+      {
+        "question": "Rain makes the ground wet. A hose makes the ground wet. What does a spilled cup make the floor?",
+        "choices": [
+          "dry",
+          "wet",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3452710509300232,
+          0.5824319124221802,
+          0.07229700684547424
+        ]
+      },
+      {
+        "question": "A push makes a swing move. A pull makes a swing move. What does a shove do to the swing?",
+        "choices": [
+          "stop it",
+          "make it move",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8724208474159241,
+          0.08642429858446121,
+          0.041154805570840836
+        ]
+      },
+      {
+        "question": "A key opens a lock. A code opens a lock. What does the right key do?",
+        "choices": [
+          "close it",
+          "open it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.26101022958755493,
+          0.6849038004875183,
+          0.054085951298475266
+        ]
+      },
+      {
+        "question": "Warm hands melt snow. Warm sun melts snow. What does warm water do to snow?",
+        "choices": [
+          "freeze it",
+          "melt it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7992680072784424,
+          0.17631803452968597,
+          0.024413926526904106
+        ]
+      },
+      {
+        "question": "A fan makes the air move. A breeze makes the air move. What does a blower do to the air?",
+        "choices": [
+          "stop it",
+          "move it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.487931489944458,
+          0.4532386362552643,
+          0.05882987380027771
+        ]
+      },
+      {
+        "question": "A bell rings when you hit it. A drum sounds when you hit it. What happens to a cymbal when you hit it?",
+        "choices": [
+          "stays quiet",
+          "makes a sound",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.011345269158482552,
+          0.05553846061229706,
+          0.9331162571907043
+        ]
+      },
+      {
+        "question": "Cold makes water freeze. A freezer makes water freeze. What does ice make water do?",
+        "choices": [
+          "melt",
+          "freeze",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24933026731014252,
+          0.6439778208732605,
+          0.10669200122356415
+        ]
+      },
+      {
+        "question": "Soap makes hands clean. Water makes hands clean. What does soap and water do to hands?",
+        "choices": [
+          "dirty",
+          "clean",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.18456599116325378,
+          0.6783082485198975,
+          0.13712576031684875
+        ]
+      },
+      {
+        "question": "A magnet pulls paper clips. A magnet pulls nails. What does a magnet do to a key?",
+        "choices": [
+          "push it",
+          "pull it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.29735496640205383,
+          0.42231637239456177,
+          0.2803286612033844
+        ]
+      }
+    ],
+    "simple-counterfactual-causal": [
+      {
+        "question": "A doll walked on the floor with muddy shoes and the floor got dirty. If she had taken off her shoes, what would the floor be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.43478888273239136,
+          0.5128209590911865,
+          0.05239023268222809
+        ]
+      },
+      {
+        "question": "A boy spilled juice and the table got wet. If he had not spilled the juice, what would the table be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4941844344139099,
+          0.4652341306209564,
+          0.04058139771223068
+        ]
+      },
+      {
+        "question": "A girl dropped paint and the floor got messy. If she had not dropped the paint, what would the floor be like?",
+        "choices": [
+          "messy",
+          "clean",
+          "partly messy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.10763546079397202,
+          0.8261536359786987,
+          0.06621085852384567
+        ]
+      },
+      {
+        "question": "A puppy tracked mud inside and the rug got dirty. If the puppy had stayed outside, what would the rug be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4572972059249878,
+          0.4942006468772888,
+          0.048502106219530106
+        ]
+      },
+      {
+        "question": "A child knocked over a cup and the carpet got wet. If the cup had not been knocked over, what would the carpet be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5130289793014526,
+          0.4512999653816223,
+          0.035671040415763855
+        ]
+      },
+      {
+        "question": "A marker leaked and the paper got stained. If the marker had not leaked, what would the paper be like?",
+        "choices": [
+          "stained",
+          "clean",
+          "partly stained"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9526886343955994,
+          0.030073674395680428,
+          0.017237655818462372
+        ]
+      },
+      {
+        "question": "A boy left the tap on and the sink overflowed. If he had turned it off, what would the sink be like?",
+        "choices": [
+          "overflowed",
+          "not overflowed",
+          "partly overflowed"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.20926477015018463,
+          0.7179126143455505,
+          0.07282263785600662
+        ]
+      },
+      {
+        "question": "A girl stepped in a puddle and the hallway got wet. If she had not stepped in it, what would the hallway be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5017385482788086,
+          0.4517764151096344,
+          0.04648510366678238
+        ]
+      },
+      {
+        "question": "A toy spilled glitter and the table got sparkly. If it had not spilled, what would the table be like?",
+        "choices": [
+          "sparkly",
+          "not sparkly",
+          "partly sparkly"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32001742720603943,
+          0.5323496460914612,
+          0.14763295650482178
+        ]
+      },
+      {
+        "question": "A child broke a cookie and crumbs fell. If the cookie had not been broken, what would the floor be like?",
+        "choices": [
+          "full of crumbs",
+          "no crumbs",
+          "some crumbs"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.022967658936977386,
+          0.6820719242095947,
+          0.2949604094028473
+        ]
+      },
+      {
+        "question": "A cat knocked over the plant and the dirt spilled. If the cat had not knocked it over, what would the floor be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.29702791571617126,
+          0.6378612518310547,
+          0.06511081755161285
+        ]
+      }
+    ],
+    "analogical-problem-solving": [
+      {
+        "question": "Story hint: A farmer moved a huge rock by rolling it on logs. New problem: A child needs to move a heavy box across the floor. What should the child do?",
+        "choices": [
+          "carry the box alone",
+          "roll it on something like logs or wheels",
+          "drag it and roll it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6842273473739624,
+          0.004490037448704243,
+          0.31128260493278503
+        ]
+      },
+      {
+        "question": "Story hint: A child pulled a wagon by using a rope. New problem: A toy boat is stuck on the floor. What should you use?",
+        "choices": [
+          "push it with your hands",
+          "pull it with a string or rope",
+          "push and pull"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1750524789094925,
+          0.29655003547668457,
+          0.5283975005149841
+        ]
+      },
+      {
+        "question": "Story hint: A bird got food by pecking a box open. New problem: A child needs to open a sealed snack. What should the child do?",
+        "choices": [
+          "leave it closed",
+          "open it by peeling or picking at the edge",
+          "open it and leave it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.06726071983575821,
+          0.010420242324471474,
+          0.9223190546035767
+        ]
+      },
+      {
+        "question": "Story hint: A person lifted a heavy lid by using a stick as a lever. New problem: A child needs to lift a heavy board. What should the child do?",
+        "choices": [
+          "lift with bare hands",
+          "use a stick as a lever",
+          "lift and use a stick"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5213623046875,
+          0.4779934287071228,
+          0.0006443109014071524
+        ]
+      },
+      {
+        "question": "Story hint: A cat reached a window by jumping onto a chair. New problem: A small child needs to reach a sink. What should the child do?",
+        "choices": [
+          "stretch only",
+          "stand on a step stool",
+          "stretch and climb"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0027448826003819704,
+          0.48421260714530945,
+          0.5130425095558167
+        ]
+      },
+      {
+        "question": "Story hint: A car crossed a muddy area by using a bridge. New problem: A toy truck needs to cross a puddle. What should it do?",
+        "choices": [
+          "drive through the water",
+          "use a bridge or plank",
+          "drive and bridge"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.21232596039772034,
+          0.04692630469799042,
+          0.7407477498054504
+        ]
+      },
+      {
+        "question": "Story hint: A person moved a heavy couch by sliding it on a blanket. New problem: A child needs to move a heavy box. What should the child do?",
+        "choices": [
+          "carry it alone",
+          "slide it on a blanket",
+          "carry and slide"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.43713974952697754,
+          0.22828693687915802,
+          0.33457329869270325
+        ]
+      },
+      {
+        "question": "Story hint: A boy kept his lunch cold by putting it in a cooler. New problem: A girl wants to keep her juice cold. What should she do?",
+        "choices": [
+          "leave it in the sun",
+          "put it in a cooler or with ice",
+          "leave it and cool it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.311447411775589,
+          0.10864939540624619,
+          0.5799031853675842
+        ]
+      },
+      {
+        "question": "Story hint: A rabbit escaped by going through a tunnel. New problem: A toy car is trapped behind a fence. What should you do?",
+        "choices": [
+          "push it through the fence",
+          "go under or through a tunnel",
+          "push and dig"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.013059385120868683,
+          0.15216359496116638,
+          0.8347770571708679
+        ]
+      },
+      {
+        "question": "Story hint: A swimmer used goggles to see underwater. New problem: A child wants to see underwater in the pool. What should the child use?",
+        "choices": [
+          "close eyes",
+          "use goggles",
+          "use goggles and close eyes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.10736021399497986,
+          0.8136146068572998,
+          0.07902517169713974
+        ]
+      },
+      {
+        "question": "Story hint: A worker moved boxes by stacking them on a cart. New problem: A child needs to move many toys. What should the child do?",
+        "choices": [
+          "carry one at a time",
+          "use a cart or box to carry many",
+          "carry and use a cart"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9961069226264954,
+          0.00045550696086138487,
+          0.003437548642978072
+        ]
+      }
+    ],
+    "class-inclusion-wording": [
+      {
+        "question": "In this set there are 3 dogs and 2 cats. Are there more dogs or more animals in this set?",
+        "choices": [
+          "more dogs",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.12920518219470978,
+          0.15110082924365997,
+          0.7196940183639526
+        ]
+      },
+      {
+        "question": "There are 4 apples and 1 banana. Are there more apples or more fruit?",
+        "choices": [
+          "more apples",
+          "more fruit",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.21117302775382996,
+          0.11100203543901443,
+          0.6778249144554138
+        ]
+      },
+      {
+        "question": "There are 2 trucks and 3 cars. Are there more trucks or more vehicles?",
+        "choices": [
+          "more trucks",
+          "more vehicles",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2643406391143799,
+          0.1275874674320221,
+          0.6080719232559204
+        ]
+      },
+      {
+        "question": "There are 5 birds and 2 fish. Are there more birds or more animals?",
+        "choices": [
+          "more birds",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.10633191466331482,
+          0.06396256387233734,
+          0.8297054767608643
+        ]
+      },
+      {
+        "question": "There are 6 socks and 1 hat. Are there more socks or more clothes?",
+        "choices": [
+          "more socks",
+          "more clothes",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.13394685089588165,
+          0.3427800238132477,
+          0.5232731103897095
+        ]
+      },
+      {
+        "question": "There are 3 roses and 2 tulips. Are there more roses or more flowers?",
+        "choices": [
+          "more roses",
+          "more flowers",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1653011292219162,
+          0.1812804639339447,
+          0.6534183621406555
+        ]
+      },
+      {
+        "question": "There are 1 cookie and 4 crackers. Are there more cookies or more snacks?",
+        "choices": [
+          "more cookies",
+          "more snacks",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.312493234872818,
+          0.13649046421051025,
+          0.5510163307189941
+        ]
+      },
+      {
+        "question": "There are 2 frogs and 2 lizards. Are there more frogs or more animals?",
+        "choices": [
+          "more frogs",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.37326231598854065,
+          0.03240459784865379,
+          0.5943331122398376
+        ]
+      },
+      {
+        "question": "There are 7 crayons and 1 marker. Are there more crayons or more art tools?",
+        "choices": [
+          "more crayons",
+          "more art tools",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0983431339263916,
+          0.25006547570228577,
+          0.651591420173645
+        ]
+      },
+      {
+        "question": "There are 3 cups and 3 plates. Are there more cups or more dishes?",
+        "choices": [
+          "more cups",
+          "more dishes",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32548069953918457,
+          0.14952482283115387,
+          0.524994432926178
+        ]
+      },
+      {
+        "question": "There are 2 kittens and 4 puppies. Are there more kittens or more pets?",
+        "choices": [
+          "more kittens",
+          "more pets",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.15993794798851013,
+          0.07179815322160721,
+          0.7682639360427856
+        ]
+      }
+    ],
+    "conservation-of-number-accidental": [
+      {
+        "question": "There are two rows of 5 checkers each. A teddy accidentally spreads one row out. Are there more checkers in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.14030243456363678,
+          0.5843945145606995,
+          0.27530309557914734
+        ]
+      },
+      {
+        "question": "There are two rows of 4 coins each. A puppy bumps one row and spreads it out. Are there more coins in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1947285681962967,
+          0.4439554810523987,
+          0.36131587624549866
+        ]
+      },
+      {
+        "question": "There are two rows of 6 buttons each. A child accidentally spreads one row. Are there more buttons in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.16162227094173431,
+          0.5640875697135925,
+          0.2742902636528015
+        ]
+      },
+      {
+        "question": "There are two rows of 3 blocks each. A cat nudges one row and it spreads out. Are there more blocks in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.11409304291009903,
+          0.6128054261207581,
+          0.2731015682220459
+        ]
+      },
+      {
+        "question": "There are two rows of 7 beads each. A teddy bumps one row and it spreads. Are there more beads in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.20734642446041107,
+          0.6095820069313049,
+          0.18307161331176758
+        ]
+      },
+      {
+        "question": "There are two rows of 5 shells each. A baby pushes one row and it spreads out. Are there more shells in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1335698515176773,
+          0.6298694610595703,
+          0.2365606129169464
+        ]
+      },
+      {
+        "question": "There are two rows of 8 stars each. A child bumps one row and it spreads. Are there more stars in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09057170897722244,
+          0.6446375846862793,
+          0.26479071378707886
+        ]
+      },
+      {
+        "question": "There are two rows of 2 cups each. A dog bumps one row and it spreads. Are there more cups in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.15339627861976624,
+          0.5881368517875671,
+          0.25846683979034424
+        ]
+      },
+      {
+        "question": "There are two rows of 9 stickers each. A kid accidentally spreads one row. Are there more stickers in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.173031285405159,
+          0.37256643176078796,
+          0.45440223813056946
+        ]
+      },
+      {
+        "question": "There are two rows of 10 pebbles each. A hand slips and spreads one row. Are there more pebbles in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.17693376541137695,
+          0.5233957171440125,
+          0.2996704578399658
+        ]
+      },
+      {
+        "question": "There are two rows of 1 button each. A breeze spreads one row. Are there more buttons in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.19981269538402557,
+          0.6267094612121582,
+          0.17347781360149384
+        ]
+      }
+    ],
+    "violation-of-expectation-false-belief": [
+      {
+        "question": "An actor watches a toy go into a green box, then leaves. While she is gone, the toy is moved to a yellow box. When she returns, which box will she open first?",
+        "choices": [
+          "yellow box",
+          "green box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24021175503730774,
+          0.7284650802612305,
+          0.031323228031396866
+        ]
+      },
+      {
+        "question": "A girl watches a toy go into a blue box, then leaves. While she is gone, the toy is moved to a red box. When she returns, which box will she open first?",
+        "choices": [
+          "red box",
+          "blue box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3170156478881836,
+          0.6098149418830872,
+          0.07316934317350388
+        ]
+      },
+      {
+        "question": "A boy sees a cookie go into a tin, then leaves. It is moved to a jar. When he comes back, which container will he open first?",
+        "choices": [
+          "jar",
+          "tin",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09840209782123566,
+          0.6397021412849426,
+          0.2618958055973053
+        ]
+      },
+      {
+        "question": "A mom sees a book go into a bag, then steps out. It is moved to a drawer. When she returns, which place will she check first?",
+        "choices": [
+          "drawer",
+          "bag",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.03169864043593407,
+          0.4207475483417511,
+          0.5475537776947021
+        ]
+      },
+      {
+        "question": "A child sees a ball go into a bucket, then leaves. It is moved to a basket. When the child returns, which will be opened first?",
+        "choices": [
+          "basket",
+          "bucket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.13200438022613525,
+          0.5357170701026917,
+          0.3322785794734955
+        ]
+      },
+      {
+        "question": "A teacher sees a pencil go into a cup, then leaves. It is moved to a box. When she returns, which container will she open first?",
+        "choices": [
+          "box",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.03830648586153984,
+          0.8657220602035522,
+          0.09597151726484299
+        ]
+      },
+      {
+        "question": "A kid sees a marble go into a green bowl, then leaves. It is moved to a yellow bowl. When the kid returns, which bowl will be opened first?",
+        "choices": [
+          "yellow bowl",
+          "green bowl",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1944323480129242,
+          0.7796170711517334,
+          0.025950616225600243
+        ]
+      },
+      {
+        "question": "A dad sees a toy go into a backpack, then leaves. It is moved to a drawer. When he returns, where will he look first?",
+        "choices": [
+          "drawer",
+          "backpack",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.035065241158008575,
+          0.2716647982597351,
+          0.6932699680328369
+        ]
+      },
+      {
+        "question": "A sister sees a ring go into a purse, then leaves. It is moved to a box. When she returns, which will she open first?",
+        "choices": [
+          "box",
+          "purse",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.25213587284088135,
+          0.3852316737174988,
+          0.3626323640346527
+        ]
+      },
+      {
+        "question": "A boy sees a toy go into a chest, then leaves. It is moved to a shelf. When he returns, which place will he check first?",
+        "choices": [
+          "shelf",
+          "chest",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.018728066235780716,
+          0.26138922572135925,
+          0.7198826670646667
+        ]
+      },
+      {
+        "question": "A girl sees a snack go into a drawer, then leaves. It is moved to a cabinet. When she returns, which will she open first?",
+        "choices": [
+          "cabinet",
+          "drawer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1678052544593811,
+          0.13347607851028442,
+          0.6987186670303345
+        ]
+      }
+    ],
+    "exploratory-play-causal": [
+      {
+        "question": "A toy lights up sometimes, but you are not sure which buttons cause it. What is a good way to find out?",
+        "choices": [
+          "press all buttons at once",
+          "test one button at a time",
+          "press all and one at a time"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.37493404746055603,
+          0.46865642070770264,
+          0.15640954673290253
+        ]
+      },
+      {
+        "question": "A box makes sounds, but you are not sure which button works. What is a good way to find out?",
+        "choices": [
+          "press all buttons at once",
+          "test one button at a time",
+          "press all and one at a time"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5445317029953003,
+          0.30929550528526306,
+          0.14617276191711426
+        ]
+      },
+      {
+        "question": "A toy sometimes lights up and you want to know which switch does it. What should you do?",
+        "choices": [
+          "flip all switches together",
+          "try one switch at a time",
+          "flip all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.02334536239504814,
+          0.01576101966202259,
+          0.9608936309814453
+        ]
+      },
+      {
+        "question": "A music toy has three keys and you want to know which key makes the sound. What should you do?",
+        "choices": [
+          "press all keys",
+          "press one key at a time",
+          "press all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6562510132789612,
+          0.050222091376781464,
+          0.29352691769599915
+        ]
+      },
+      {
+        "question": "A bubble toy has three buttons and you want to know which makes bubbles. What should you do?",
+        "choices": [
+          "press all buttons",
+          "press one button at a time",
+          "press all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32486772537231445,
+          0.27638694643974304,
+          0.39874523878097534
+        ]
+      },
+      {
+        "question": "A light box has four sliders and you want to know which slider turns it on. What should you do?",
+        "choices": [
+          "move all sliders",
+          "move one slider at a time",
+          "move all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24641560018062592,
+          0.3322547674179077,
+          0.42132967710494995
+        ]
+      },
+      {
+        "question": "A wind toy has two levers and you want to know which starts the wind. What should you do?",
+        "choices": [
+          "pull both levers",
+          "pull one lever at a time",
+          "pull both and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9550954103469849,
+          0.041598182171583176,
+          0.0033063481096178293
+        ]
+      },
+      {
+        "question": "A pop-up toy has three knobs and you want to know which makes it pop. What should you do?",
+        "choices": [
+          "turn all knobs",
+          "turn one knob at a time",
+          "turn all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3885396718978882,
+          0.3521684408187866,
+          0.2592918872833252
+        ]
+      },
+      {
+        "question": "A toy has four doors and you want to know which door hides the sound button. What should you do?",
+        "choices": [
+          "open all doors",
+          "open one door at a time",
+          "open all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6174455881118774,
+          0.14134648442268372,
+          0.24120786786079407
+        ]
+      },
+      {
+        "question": "A rattle has two parts and you want to know which part makes noise. What should you do?",
+        "choices": [
+          "shake both parts together",
+          "shake one part at a time",
+          "shake both and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.45453858375549316,
+          0.5347214937210083,
+          0.010739905759692192
+        ]
+      },
+      {
+        "question": "A toy has three pedals and you want to know which pedal starts the light. What should you do?",
+        "choices": [
+          "step on all pedals",
+          "step on one pedal at a time",
+          "step on all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5024192333221436,
+          0.23545490205287933,
+          0.2621259093284607
+        ]
+      }
+    ],
+    "false-belief-vignette-battery": [
+      {
+        "question": "A child opens a candy box and finds pencils inside. Later, another child who has not seen inside the box comes in. What will the second child think is in the box?",
+        "choices": [
+          "pencils",
+          "candy",
+          "both pencils and candy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6823219656944275,
+          0.28595995903015137,
+          0.03171810507774353
+        ]
+      },
+      {
+        "question": "A child opens a toy egg and finds a rock inside. Another child who has not seen inside comes in. What will the second child think is in the egg?",
+        "choices": [
+          "rock",
+          "a toy",
+          "both rock and toy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5546714663505554,
+          0.43998175859451294,
+          0.005346843972802162
+        ]
+      },
+      {
+        "question": "A child opens a juice box and finds crayons inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "crayons",
+          "juice",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0816442146897316,
+          0.7008943557739258,
+          0.21746140718460083
+        ]
+      },
+      {
+        "question": "A child opens a chip bag and finds socks inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+        "choices": [
+          "socks",
+          "chips",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.06042895466089249,
+          0.6464266180992126,
+          0.2931444048881531
+        ]
+      },
+      {
+        "question": "A child opens a cookie tin and finds buttons inside. Another child who has not seen inside comes in. What will the second child think is in the tin?",
+        "choices": [
+          "buttons",
+          "cookies",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.36085250973701477,
+          0.35214897990226746,
+          0.286998450756073
+        ]
+      },
+      {
+        "question": "A child opens a cereal box and finds blocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "blocks",
+          "cereal",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09454737603664398,
+          0.2525111138820648,
+          0.6529414653778076
+        ]
+      },
+      {
+        "question": "A child opens a gift box and finds rocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "rocks",
+          "a gift",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3500872552394867,
+          0.3187866508960724,
+          0.3311261236667633
+        ]
+      },
+      {
+        "question": "A child opens a snack jar and finds paper inside. Another child who has not seen inside comes in. What will the second child think is in the jar?",
+        "choices": [
+          "paper",
+          "snacks",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.04937951639294624,
+          0.9067856669425964,
+          0.0438348650932312
+        ]
+      },
+      {
+        "question": "A child opens a milk carton and finds toys inside. Another child who has not seen inside comes in. What will the second child think is in the carton?",
+        "choices": [
+          "toys",
+          "milk",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.21618233621120453,
+          0.5591296553611755,
+          0.22468796372413635
+        ]
+      },
+      {
+        "question": "A child opens a candy bag and finds coins inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+        "choices": [
+          "coins",
+          "candy",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5077695846557617,
+          0.3007316589355469,
+          0.1914987862110138
+        ]
+      },
+      {
+        "question": "A child opens a pencil box and finds stickers inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "stickers",
+          "pencils",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.04337743669748306,
+          0.7056949734687805,
+          0.2509276270866394
+        ]
+      }
+    ],
+    "false-belief-unexpected-transfer": [
+      {
+        "question": "Sally puts her marble in a basket and leaves. Anne moves the marble to a box while Sally is gone. When Sally returns, where will she look for the marble first?",
+        "choices": [
+          "the box",
+          "the basket",
+          "both places"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8210442066192627,
+          0.12696313858032227,
+          0.05199269577860832
+        ]
+      },
+      {
+        "question": "Maya puts her doll in a pink box and leaves. Eli moves it to a blue box. When Maya comes back, where will she look first?",
+        "choices": [
+          "blue box",
+          "pink box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6598373651504517,
+          0.30991676449775696,
+          0.030245864763855934
+        ]
+      },
+      {
+        "question": "Liam puts his truck in a basket and leaves. It is moved to a shelf. When Liam returns, where will he look first?",
+        "choices": [
+          "shelf",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.021413207054138184,
+          0.05940352752804756,
+          0.9191832542419434
+        ]
+      },
+      {
+        "question": "Emma puts her book in a bag and leaves. It is moved to a drawer. When she comes back, where will she look first?",
+        "choices": [
+          "drawer",
+          "bag",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0315672867000103,
+          0.22038306295871735,
+          0.7480496764183044
+        ]
+      },
+      {
+        "question": "Jack puts his marble in a cup and leaves. It is moved to a bowl. When Jack returns, where will he look first?",
+        "choices": [
+          "bowl",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.027923276647925377,
+          0.803776741027832,
+          0.16830001771450043
+        ]
+      },
+      {
+        "question": "Ava puts her sticker in a box and leaves. It is moved to a backpack. When Ava returns, where will she look first?",
+        "choices": [
+          "backpack",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.26060086488723755,
+          0.2242741882801056,
+          0.5151249170303345
+        ]
+      },
+      {
+        "question": "Noah puts his ball in a drawer and leaves. It is moved to a bin. When Noah returns, where will he look first?",
+        "choices": [
+          "bin",
+          "drawer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3386232256889343,
+          0.005791235249489546,
+          0.6555855870246887
+        ]
+      },
+      {
+        "question": "Olivia puts her ring in a purse and leaves. It is moved to a pocket. When Olivia returns, where will she look first?",
+        "choices": [
+          "pocket",
+          "purse",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.12658452987670898,
+          0.28243115544319153,
+          0.5909843444824219
+        ]
+      },
+      {
+        "question": "Ethan puts his toy in a chest and leaves. It is moved to a closet. When Ethan returns, where will he look first?",
+        "choices": [
+          "closet",
+          "chest",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006329923868179321,
+          0.19136758148670197,
+          0.8023024201393127
+        ]
+      },
+      {
+        "question": "Sophia puts her hat in a basket and leaves. It is moved to a chair. When Sophia returns, where will she look first?",
+        "choices": [
+          "chair",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.11177972704172134,
+          0.12971635162830353,
+          0.7585039138793945
+        ]
+      },
+      {
+        "question": "Mason puts his toy in a box and leaves. It is moved to a shelf. When Mason returns, where will he look first?",
+        "choices": [
+          "shelf",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.008083539083600044,
+          0.2894764542579651,
+          0.7024400234222412
+        ]
+      }
+    ]
+  },
+  "BabyLM-community/babylm-baseline-10m-gpt2": {
+    "false-belief-sally-anne": [
+      {
+        "question": "In a puppet show, Sally hides a toy in her bag and leaves. Anne moves it to her own box. Where will Sally search when she comes back?",
+        "choices": [
+          "Anne's box",
+          "her bag",
+          "both locations"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7596362829208374,
+          0.24035276472568512,
+          1.0975108125421684e-05
+        ]
+      },
+      {
+        "question": "Mia puts her cookie in a red jar and goes outside. Leo moves it to a blue jar. When Mia comes back inside, where will she look first?",
+        "choices": [
+          "blue jar",
+          "red jar",
+          "both jars"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6430168151855469,
+          0.3531131446361542,
+          0.0038699943106621504
+        ]
+      },
+      {
+        "question": "Ben hides his ball under the bed, then leaves. While he is away, it is moved to the closet. Where will Ben look when he returns?",
+        "choices": [
+          "closet",
+          "under the bed",
+          "both places"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.12021542340517044,
+          0.7927456498146057,
+          0.08703897148370743
+        ]
+      },
+      {
+        "question": "Ava puts her toy in the toy box and goes to lunch. Dad moves it to the shelf. Where will Ava search first after lunch?",
+        "choices": [
+          "shelf",
+          "toy box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.022780075669288635,
+          0.135498508810997,
+          0.8417214155197144
+        ]
+      },
+      {
+        "question": "Sam places a sticker in his backpack, then goes to the park. His sister moves it to a drawer. Where will Sam look first?",
+        "choices": [
+          "drawer",
+          "backpack",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.002125856466591358,
+          0.6884912252426147,
+          0.3093828856945038
+        ]
+      },
+      {
+        "question": "Lily puts a doll in the basket and leaves. The doll is moved to the bed. When Lily returns, where will she check first?",
+        "choices": [
+          "bed",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.20771178603172302,
+          0.043577056378126144,
+          0.7487111687660217
+        ]
+      },
+      {
+        "question": "Noah puts his car in a green cup and goes away. It is moved to a yellow cup by Peter. Where will Noah look first when he comes back?",
+        "choices": [
+          "yellow cup",
+          "green cup",
+          "both cups"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.43168339133262634,
+          0.567274808883667,
+          0.0010418372694402933
+        ]
+      },
+      {
+        "question": "Ivy puts her blocks in the closet and leaves. Her brother moves them to the table. Where will Ivy look first?",
+        "choices": [
+          "table",
+          "closet",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22948645055294037,
+          0.048236746340990067,
+          0.7222768068313599
+        ]
+      },
+      {
+        "question": "Owen hides a ring in a shoe and leaves. The ring is moved to a drawer. When Owen comes back, where will he look first?",
+        "choices": [
+          "drawer",
+          "shoe",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0025636020582169294,
+          0.372425377368927,
+          0.6250110268592834
+        ]
+      },
+      {
+        "question": "Zoe puts a marble in a cup and steps out. It is moved to a bowl when Zoe is away. Where will Zoe search first?",
+        "choices": [
+          "bowl",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09198679029941559,
+          0.4870093762874603,
+          0.42100390791893005
+        ]
+      },
+      {
+        "question": "Max hides a toy train in the box and goes away. It is moved to the shelf. Where will Max look first when he comes back?",
+        "choices": [
+          "shelf",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.026935415342450142,
+          0.20056992769241333,
+          0.7724946141242981
+        ]
+      }
+    ],
+    "counterfactual-possibilities": [
+      {
+        "question": "The picnic was canceled because it rained. If it had not rained, what could have happened instead?",
+        "choices": [
+          "the picnic was still canceled",
+          "the picnic went ahead as planned",
+          "both outcomes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.32381170988082886,
+          0.00016266545571852475,
+          0.6760256290435791
+        ]
+      },
+      {
+        "question": "The parade stopped because it started to snow. If it had not snowed, what could have happened?",
+        "choices": [
+          "the parade was still stopped",
+          "the parade continued",
+          "both outcomes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01368072722107172,
+          0.9778397083282471,
+          0.008479615673422813
+        ]
+      },
+      {
+        "question": "The game was canceled because the coach was sick. If the coach had not been sick, what could have happened?",
+        "choices": [
+          "the game was still canceled",
+          "the game was played",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          6.363857210089918e-06,
+          0.9518048167228699,
+          0.048188887536525726
+        ]
+      },
+      {
+        "question": "The picnic ended early because it got dark. If it had stayed light, what could have happened?",
+        "choices": [
+          "the picnic still ended early",
+          "the picnic could have gone longer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          6.017394298396539e-06,
+          0.0007560276426374912,
+          0.9992380142211914
+        ]
+      },
+      {
+        "question": "The story time was quiet because the kids were sleepy. If they had not been sleepy, what could have happened?",
+        "choices": [
+          "story time was still quiet",
+          "they could have talked more",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          2.088194150928757e-06,
+          0.003781172214075923,
+          0.9962167143821716
+        ]
+      },
+      {
+        "question": "The sandcastle fell because a big wave hit it. If the wave had not come, what could have happened?",
+        "choices": [
+          "the sandcastle still fell",
+          "the sandcastle could have stayed up",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.00016466058150399476,
+          0.00023117940872907639,
+          0.9996041655540466
+        ]
+      },
+      {
+        "question": "The kite would not fly because there was no wind. If there had been wind, what could have happened?",
+        "choices": [
+          "the kite still would not fly",
+          "the kite could have flown",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          1.89701186172897e-05,
+          0.012114014476537704,
+          0.987866997718811
+        ]
+      },
+      {
+        "question": "The puddle formed because it rained hard. If it had not rained, what could have happened?",
+        "choices": [
+          "the puddle still formed",
+          "the ground could have stayed dry",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0003165658563375473,
+          2.5335846203233814e-06,
+          0.9996808767318726
+        ]
+      },
+      {
+        "question": "The cake burned because it was left in too long. If it had not been left in too long, what could have happened?",
+        "choices": [
+          "the cake still burned",
+          "the cake could have baked okay",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.020199839025735855,
+          7.633086170244496e-06,
+          0.9797924757003784
+        ]
+      },
+      {
+        "question": "The toy boat sank because it had a hole. If it did not have a hole, what could have happened?",
+        "choices": [
+          "the boat still sank",
+          "the boat could have floated",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.037212252616882324,
+          0.0015580076724290848,
+          0.9612298011779785
+        ]
+      },
+      {
+        "question": "The flower wilted because no one watered it. If it had been watered, what could have happened?",
+        "choices": [
+          "the flower still wilted",
+          "the flower could have stayed fresh",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          1.4295046923962218e-07,
+          6.290210308179667e-07,
+          0.9999992847442627
+        ]
+      }
+    ],
+    "transitive-inference": [
+      {
+        "question": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest?",
+        "choices": [
+          "stick B",
+          "stick A",
+          "stick C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.45784062147140503,
+          0.2908763587474823,
+          0.25128301978111267
+        ]
+      },
+      {
+        "question": "If cup A is taller than cup B, and cup B is taller than cup C, which cup is tallest?",
+        "choices": [
+          "cup B",
+          "cup A",
+          "cup C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22471994161605835,
+          0.34712257981300354,
+          0.4281574785709381
+        ]
+      },
+      {
+        "question": "If rope A is longer than rope B, and rope B is longer than rope C, which rope is longest?",
+        "choices": [
+          "rope B",
+          "rope A",
+          "rope C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5116706490516663,
+          0.2509017288684845,
+          0.23742759227752686
+        ]
+      },
+      {
+        "question": "If tower A is higher than tower B, and tower B is higher than tower C, which tower is highest?",
+        "choices": [
+          "tower B",
+          "tower A",
+          "tower C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4690041244029999,
+          0.31328099966049194,
+          0.2177148163318634
+        ]
+      },
+      {
+        "question": "If stick A is shorter than stick B, and stick B is shorter than stick C, which stick is longest?",
+        "choices": [
+          "stick B",
+          "stick C",
+          "stick A"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4703022539615631,
+          0.23811651766300201,
+          0.29158124327659607
+        ]
+      },
+      {
+        "question": "If book A is thicker than book B, and book B is thicker than book C, which book is thickest?",
+        "choices": [
+          "book B",
+          "book A",
+          "book C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3749588429927826,
+          0.28483065962791443,
+          0.3402104377746582
+        ]
+      },
+      {
+        "question": "If toy car A is faster than toy car B, and toy car B is faster than toy car C, which car is fastest?",
+        "choices": [
+          "car B",
+          "car A",
+          "car C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5468019843101501,
+          0.07679253816604614,
+          0.3764054775238037
+        ]
+      },
+      {
+        "question": "If ladder A is taller than ladder B, and ladder B is taller than ladder C, which ladder is tallest?",
+        "choices": [
+          "ladder B",
+          "ladder A",
+          "ladder C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7255529761314392,
+          0.15451745688915253,
+          0.11992952227592468
+        ]
+      },
+      {
+        "question": "If bear A is bigger than bear B, and bear B is bigger than bear C, which bear is biggest?",
+        "choices": [
+          "bear B",
+          "bear A",
+          "bear C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6300448179244995,
+          0.0617075189948082,
+          0.3082475960254669
+        ]
+      },
+      {
+        "question": "If balloon A is higher than balloon B, and balloon B is higher than balloon C, which balloon is highest?",
+        "choices": [
+          "balloon B",
+          "balloon A",
+          "balloon C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24165551364421844,
+          0.20305795967578888,
+          0.5552865862846375
+        ]
+      },
+      {
+        "question": "If crayon A is longer than crayon B, and crayon B is longer than crayon C, which crayon is longest?",
+        "choices": [
+          "crayon B",
+          "crayon A",
+          "crayon C"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2324003130197525,
+          0.3894200623035431,
+          0.3781796395778656
+        ]
+      }
+    ],
+    "physical-cause-effect": [
+      {
+        "question": "A ball hits a switch and the light turns on. If the ball never hits the switch, can the light still turn on by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4543451964855194,
+          0.5239100456237793,
+          0.02174477092921734
+        ]
+      },
+      {
+        "question": "A toy car bumps a button and the music plays. If the car never bumps the button, will the music play by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4307350814342499,
+          0.5377081632614136,
+          0.03155672177672386
+        ]
+      },
+      {
+        "question": "A hand presses a bell and it rings. If the hand does not press it, can the bell ring on its own?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5852711796760559,
+          0.40994611382484436,
+          0.0047827516682446
+        ]
+      },
+      {
+        "question": "A ball knocks over a block tower and it falls. If the ball does not hit it, will the tower fall by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5651926398277283,
+          0.42493975162506104,
+          0.009867649525403976
+        ]
+      },
+      {
+        "question": "A finger flips a switch and the fan starts. If no one flips the switch, can the fan start by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5356643199920654,
+          0.45677706599235535,
+          0.007558573503047228
+        ]
+      },
+      {
+        "question": "A dog pushes a door and it opens. If the dog does not push it, will the door open by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3293745219707489,
+          0.6532602906227112,
+          0.017365187406539917
+        ]
+      },
+      {
+        "question": "A marble hits a lever and a toy pops up. If the marble never hits the lever, will the toy pop up by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5157007575035095,
+          0.45897698402404785,
+          0.025322241708636284
+        ]
+      },
+      {
+        "question": "A spoon taps a xylophone bar and it makes a sound. If the spoon never taps it, can the sound happen by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6630285382270813,
+          0.3103468120098114,
+          0.026624638587236404
+        ]
+      },
+      {
+        "question": "A child steps on a pedal and bubbles start. If the child does not step, will bubbles start anyway?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5116775631904602,
+          0.4517860412597656,
+          0.03653634339570999
+        ]
+      },
+      {
+        "question": "A wind-up key is turned and the toy walks. If no one turns the key, will it walk on its own?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.44777053594589233,
+          0.5357134342193604,
+          0.01651591807603836
+        ]
+      },
+      {
+        "question": "A cup is tipped and water spills out. If the cup is not tipped, will the water spill by itself?",
+        "choices": [
+          "yes",
+          "no",
+          "sometimes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.46465104818344116,
+          0.5279868841171265,
+          0.0073620169423520565
+        ]
+      }
+    ],
+    "control-of-variables-strategy": [
+      {
+        "question": "You want to know whether a heavier ball makes a swing go farther. What should you do in your test?",
+        "choices": [
+          "change the color of the ball",
+          "change the weight of the ball",
+          "change the color and weight of the ball"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8671627640724182,
+          0.13282756507396698,
+          9.760577086126432e-06
+        ]
+      },
+      {
+        "question": "You want to know if a bigger sail makes a toy boat go faster. What should you do?",
+        "choices": [
+          "change only the water",
+          "change only the sail size",
+          "change only the sail color"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9980042576789856,
+          0.000887523521669209,
+          0.0011081682750955224
+        ]
+      },
+      {
+        "question": "You want to know if a toy car goes farther with smoother wheels. What is the best test?",
+        "choices": [
+          "change only the track",
+          "change only the wheels",
+          "change only the driver"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.14242564141750336,
+          0.11359407752752304,
+          0.7439802289009094
+        ]
+      },
+      {
+        "question": "You want to know if a plant grows taller with more light. What should you do?",
+        "choices": [
+          "change only the soil",
+          "change only the light",
+          "change only the water"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.012755820527672768,
+          0.35916605591773987,
+          0.6280781626701355
+        ]
+      },
+      {
+        "question": "You want to know if a louder clap makes the toy jump higher. What should you do?",
+        "choices": [
+          "change only the toy",
+          "change only the clap",
+          "change only the floor"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.08144725859165192,
+          0.8884125351905823,
+          0.03014022670686245
+        ]
+      },
+      {
+        "question": "You want to know if a heavier book makes a stack fall. What should you do?",
+        "choices": [
+          "change only the table",
+          "change only the book",
+          "change only the stack"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2874751687049866,
+          0.6873728036880493,
+          0.025151947513222694
+        ]
+      },
+      {
+        "question": "You want to know if warm water melts ice faster. What should you do?",
+        "choices": [
+          "change the water and the cup",
+          "change only the water temperature",
+          "change the water and the ice size"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9858965277671814,
+          0.01318184845149517,
+          0.0009217059123329818
+        ]
+      },
+      {
+        "question": "You want to know if a longer ramp makes a ball roll farther. What should you do?",
+        "choices": [
+          "change the ramp and the ball",
+          "change only the ramp length",
+          "change the ramp and the floor"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8603991866111755,
+          0.00010299573477823287,
+          0.13949784636497498
+        ]
+      },
+      {
+        "question": "You want to know if a stronger push makes the swing go higher. What should you do?",
+        "choices": [
+          "change the push and the swing",
+          "change only the push",
+          "change the push and the seat"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8882991671562195,
+          0.11120233684778214,
+          0.0004984458209946752
+        ]
+      },
+      {
+        "question": "You want to know if a thicker crayon makes darker marks. What should you do?",
+        "choices": [
+          "change the crayon and the paper",
+          "change only the crayon thickness",
+          "change the crayon and the color"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7112191319465637,
+          2.03381614483078e-06,
+          0.28877881169319153
+        ]
+      },
+      {
+        "question": "You want to know if a taller tower falls sooner. What should you do?",
+        "choices": [
+          "change the tower and the blocks",
+          "change only the tower height",
+          "change the tower and the table"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7120293974876404,
+          5.7460397329123225e-06,
+          0.28796476125717163
+        ]
+      }
+    ],
+    "counterfactual-syllogism-pretend": [
+      {
+        "question": "In a pretend world where all bears can fly, and Teddy is a bear, can Teddy fly?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.43808040022850037,
+          0.5619195699691772
+        ]
+      },
+      {
+        "question": "In a pretend world where all fish can talk, and Goldie is a fish, can Goldie talk?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6509618163108826,
+          0.3490382432937622
+        ]
+      },
+      {
+        "question": "In a pretend world where all cats are blue, and Muffin is a cat, what color is Muffin?",
+        "choices": [
+          "white",
+          "blue"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5149601101875305,
+          0.4850398898124695
+        ]
+      },
+      {
+        "question": "In a pretend world where all cars can fly, and this car is a car, can it fly?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.45634230971336365,
+          0.543657660484314
+        ]
+      },
+      {
+        "question": "In a pretend world where all flowers sing, and Daisy is a flower, does Daisy sing?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3421857953071594,
+          0.6578142046928406
+        ]
+      },
+      {
+        "question": "In a pretend world where all frogs are purple, and Freddy is a frog, what color is Freddy?",
+        "choices": [
+          "green",
+          "purple"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8135145902633667,
+          0.1864853799343109
+        ]
+      },
+      {
+        "question": "In a pretend world where all trucks are tiny, and this truck is a truck, is it tiny?",
+        "choices": [
+          "no",
+          "yes",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.37153878808021545,
+          0.5874766707420349,
+          0.040984585881233215
+        ]
+      },
+      {
+        "question": "In a pretend world where all birds swim, and Pip is a bird, can Pip swim?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.38957521319389343,
+          0.6104247570037842
+        ]
+      },
+      {
+        "question": "In a pretend world where all bears are striped, and Beara is a bear, is Beara striped?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4281696379184723,
+          0.5718303322792053
+        ]
+      },
+      {
+        "question": "In a pretend world where all cups are made of candy, and this cup is a cup, is it made of candy?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3839869499206543,
+          0.6160130500793457
+        ]
+      },
+      {
+        "question": "In a pretend world where all rabbits wear hats, and Ruby is a rabbit, does Ruby wear a hat?",
+        "choices": [
+          "no",
+          "yes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6116878390312195,
+          0.3883121609687805
+        ]
+      }
+    ],
+    "category-based-induction": [
+      {
+        "question": "A robin has a special food called 'dax' to feed its babies. Which is more likely to also use dax: a sparrow (another bird) or a butterfly (looks similar but is an insect)?",
+        "choices": [
+          "butterfly",
+          "sparrow",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24565644562244415,
+          0.11109645664691925,
+          0.643247127532959
+        ]
+      },
+      {
+        "question": "A dog has a tiny bone inside its ear. Which is more likely to also have a tiny ear bone: a cat (another animal) or a robot that looks like a dog?",
+        "choices": [
+          "robot",
+          "cat",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.06496278941631317,
+          0.7923051714897156,
+          0.14273200929164886
+        ]
+      },
+      {
+        "question": "A whale has a special fat called zorp inside. Which is more likely to have zorp: a dolphin (another sea mammal) or a shark (looks similar but is a fish)?",
+        "choices": [
+          "shark",
+          "dolphin",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.461270809173584,
+          0.3221583664417267,
+          0.2165709137916565
+        ]
+      },
+      {
+        "question": "A cow has a type of blood called mip. Which is more likely to also have mip: a goat (another farm animal) or a horse toy that looks like a horse?",
+        "choices": [
+          "horse toy",
+          "goat",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          8.70702788233757e-05,
+          0.7803501486778259,
+          0.21956278383731842
+        ]
+      },
+      {
+        "question": "A lizard has a special skin called dorb. Which is more likely to have dorb: a snake (another reptile) or a worm (looks a bit like a snake)?",
+        "choices": [
+          "worm",
+          "snake",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.027274753898382187,
+          0.726290225982666,
+          0.24643497169017792
+        ]
+      },
+      {
+        "question": "A duck has a food called nif for its babies. Which is more likely to also use nif: a goose (another bird) or a bat (flies but is a mammal)?",
+        "choices": [
+          "bat",
+          "goose",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.666467010974884,
+          0.0435144267976284,
+          0.29001861810684204
+        ]
+      },
+      {
+        "question": "A turtle has a little organ called tav. Which is more likely to have tav: a tortoise (another reptile) or a crab (has a shell)?",
+        "choices": [
+          "crab",
+          "tortoise",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.16059979796409607,
+          0.5046910643577576,
+          0.33470913767814636
+        ]
+      },
+      {
+        "question": "A bee has a special juice called pim. Which is more likely to have pim: a wasp (another insect) or a hummingbird (flies too)?",
+        "choices": [
+          "hummingbird",
+          "wasp",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0018918841378763318,
+          0.13694201409816742,
+          0.8611661195755005
+        ]
+      },
+      {
+        "question": "A frog has a sound called zum in its throat. Which is more likely to also have zum: a toad (another amphibian) or a fish (lives in water)?",
+        "choices": [
+          "fish",
+          "toad",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4194363057613373,
+          0.5190932750701904,
+          0.061470404267311096
+        ]
+      },
+      {
+        "question": "A lion has a special tooth called keb. Which is more likely to also have keb: a tiger (another big cat) or a dog (looks less like a cat)?",
+        "choices": [
+          "dog",
+          "tiger",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.38710689544677734,
+          0.3745201528072357,
+          0.23837298154830933
+        ]
+      },
+      {
+        "question": "A parrot has a feather called lod. Which is more likely to also have lod: a pigeon (another bird) or a butterfly (has wings)?",
+        "choices": [
+          "butterfly",
+          "pigeon",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.21809031069278717,
+          0.23041605949401855,
+          0.5514935851097107
+        ]
+      }
+    ],
+    "story-analogy-relational-shift": [
+      {
+        "question": "Base story: A small knight cannot lift a heavy gate alone, so he asks two friends to lift together. New story: A small robot cannot move a heavy crate alone. What should the robot do to solve the problem?",
+        "choices": [
+          "try to lift it alone",
+          "ask two helpers to lift together",
+          "ask one helper and also try alone"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9991156458854675,
+          0.000884329027030617,
+          7.781675304130431e-11
+        ]
+      },
+      {
+        "question": "Base story: A little mouse cannot move a big cheese alone, so she gets two friends to push together. New story: A little puppy cannot move a big ball alone. What should the puppy do?",
+        "choices": [
+          "push alone",
+          "get two friends to push together",
+          "get one friend and push alone"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9982699155807495,
+          0.0017276682192459702,
+          2.3346931357082212e-06
+        ]
+      },
+      {
+        "question": "Base story: A bird cannot reach a high branch, so it stands on a box. New story: A child cannot reach a high shelf. What should the child do?",
+        "choices": [
+          "jump only",
+          "stand on a box or stool",
+          "ask and also jump"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9987063407897949,
+          0.0011642595054581761,
+          0.00012941559543833137
+        ]
+      },
+      {
+        "question": "Base story: A turtle crosses a pond by riding on a log. New story: A toy car needs to cross a puddle. What should it do?",
+        "choices": [
+          "drive into the water",
+          "ride on something that floats",
+          "drive and float"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9966956377029419,
+          2.1709354314225493e-06,
+          0.003302233060821891
+        ]
+      },
+      {
+        "question": "Base story: A boy shares his snack so everyone has some. New story: A girl has one big cookie and three friends. What should she do?",
+        "choices": [
+          "keep it all",
+          "share it into pieces",
+          "share and keep half"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9831187129020691,
+          0.01687028631567955,
+          1.1066657862102147e-05
+        ]
+      },
+      {
+        "question": "Base story: A dog opens a gate by pulling a rope. New story: A robot needs to open a door with a handle. What should it do?",
+        "choices": [
+          "push the door only",
+          "pull the handle",
+          "push and pull"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.008036734536290169,
+          0.9094151258468628,
+          0.08254815638065338
+        ]
+      },
+      {
+        "question": "Base story: A train gets over a hill by using a helper engine. New story: A toy truck cannot climb a steep ramp. What should it do?",
+        "choices": [
+          "try alone",
+          "use a helper to push",
+          "try alone and then push"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.996364414691925,
+          0.003243144601583481,
+          0.00039239265606738627
+        ]
+      },
+      {
+        "question": "Base story: A girl carries water in a bucket with a lid so it does not spill. New story: A boy carries paint in a cup. What should he do?",
+        "choices": [
+          "carry without a lid",
+          "use a lid to keep it in",
+          "use a lid and shake it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.001223057508468628,
+          0.9723184108734131,
+          0.02645857445895672
+        ]
+      },
+      {
+        "question": "Base story: A frog crosses a road safely by waiting for the red light to stop cars. New story: A child wants to cross a busy street. What should the child do?",
+        "choices": [
+          "run across anytime",
+          "wait for the walk sign",
+          "run and wait"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.005425279028713703,
+          0.006492428947240114,
+          0.9880822896957397
+        ]
+      },
+      {
+        "question": "Base story: A bee reaches the flower by flying around a wall. New story: A ball needs to get to the other side of a box. What should you do?",
+        "choices": [
+          "push through the box",
+          "move around the box",
+          "push and move around"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5158790946006775,
+          0.4726024568080902,
+          0.01151841226965189
+        ]
+      },
+      {
+        "question": "Base story: A fox gets food by digging under a fence. New story: A puppy wants to get a ball stuck behind a small fence. What should the puppy do?",
+        "choices": [
+          "jump into the fence",
+          "dig or go under",
+          "jump and dig"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9601172804832458,
+          0.011350326240062714,
+          0.028532322496175766
+        ]
+      }
+    ],
+    "causal-structure-learning": [
+      {
+        "question": "When lever Y is pulled, the toy lights up. When lever X is pulled alone, nothing happens. When both X and Y are pulled, it still lights up. Which lever is the likely cause?",
+        "choices": [
+          "lever X",
+          "lever Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.02982260473072529,
+          0.008587837219238281,
+          0.961589515209198
+        ]
+      },
+      {
+        "question": "When button A is pressed, nothing happens. When button B is pressed, the light turns on. When both are pressed, it still turns on. Which button is the likely cause?",
+        "choices": [
+          "button A",
+          "button B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01721894182264805,
+          0.05644715949892998,
+          0.9263338446617126
+        ]
+      },
+      {
+        "question": "When switch X is flipped, the toy stays quiet. When switch Y is flipped, the toy sings. When both are flipped, it sings. Which switch is the cause?",
+        "choices": [
+          "switch X",
+          "switch Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.00017590881907381117,
+          0.000232887570746243,
+          0.9995911717414856
+        ]
+      },
+      {
+        "question": "When lever 1 is pulled, nothing happens. When lever 2 is pulled, bubbles start. When both are pulled, bubbles start. Which lever causes bubbles?",
+        "choices": [
+          "lever 1",
+          "lever 2",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          1.535687806608621e-05,
+          5.557852546189679e-06,
+          0.9999791383743286
+        ]
+      },
+      {
+        "question": "When pad A is stepped on, nothing happens. When pad B is stepped on, a bell rings. When both are stepped on, it rings. Which pad causes the bell?",
+        "choices": [
+          "pad A",
+          "pad B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0268852636218071,
+          0.05977306887507439,
+          0.9133417010307312
+        ]
+      },
+      {
+        "question": "When knob A is turned, the motor stays off. When knob B is turned, the motor starts. When both are turned, the motor starts. Which knob is the cause?",
+        "choices": [
+          "knob A",
+          "knob B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0001379447930958122,
+          0.001187069807201624,
+          0.9986749291419983
+        ]
+      },
+      {
+        "question": "When tile A is pressed, no sound plays. When tile B is pressed, music plays. When both are pressed, music plays. Which tile is the cause?",
+        "choices": [
+          "tile A",
+          "tile B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.035595495253801346,
+          0.228935107588768,
+          0.735469400882721
+        ]
+      },
+      {
+        "question": "When button X is pushed, no light appears. When button Y is pushed, a light appears. When both are pushed, the light appears. Which button causes the light?",
+        "choices": [
+          "button X",
+          "button Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006172878202050924,
+          0.0070801833644509315,
+          0.9867469072341919
+        ]
+      },
+      {
+        "question": "When slider A is moved, nothing happens. When slider B is moved, the fan turns on. When both are moved, the fan turns on. Which slider causes the fan?",
+        "choices": [
+          "slider A",
+          "slider B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0011266127694398165,
+          0.011044624261558056,
+          0.9878287315368652
+        ]
+      },
+      {
+        "question": "When key A is turned, no light shows. When key B is turned, the light shows. When both are turned, the light shows. Which key causes the light?",
+        "choices": [
+          "key A",
+          "key B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.001051057712174952,
+          0.0025857165455818176,
+          0.9963632225990295
+        ]
+      },
+      {
+        "question": "When flap A is lifted, nothing happens. When flap B is lifted, a toy jumps. When both are lifted, the toy jumps. Which flap causes the jump?",
+        "choices": [
+          "flap A",
+          "flap B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.037411194294691086,
+          0.21907445788383484,
+          0.7435142993927002
+        ]
+      }
+    ],
+    "blicket-detector-inference": [
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block A is placed on the machine, nothing happens. When block B is placed alone, it lights up. When A and B are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block A",
+          "block B",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01360718347132206,
+          0.0155953885987401,
+          0.9707974195480347
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block C is placed on the machine, nothing happens. When block D is placed alone, it lights up. When C and D are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block C",
+          "block D",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.004169147461652756,
+          0.00953703187406063,
+          0.9862937927246094
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block E is placed on the machine, it lights up. When block F is placed alone, nothing happens. When E and F are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block F",
+          "block E",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.010971665382385254,
+          0.0039510540664196014,
+          0.9850773215293884
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block G is placed alone, nothing happens. When block H is placed alone, it lights up. When G and H are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block G",
+          "block H",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0005232991534285247,
+          0.002533509861677885,
+          0.9969431757926941
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block J is placed alone, it lights up. When block K is placed alone, nothing happens. When J and K are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block K",
+          "block J",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0028316492680460215,
+          0.01923460327088833,
+          0.9779337048530579
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block L is placed alone, nothing happens. When block M is placed alone, it lights up. When L and M are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block L",
+          "block M",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.008114953525364399,
+          0.02253536880016327,
+          0.96934974193573
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block N is placed alone, it lights up. When block P is placed alone, nothing happens. When N and P are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block P",
+          "block N",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0019850695971399546,
+          0.0003241433296352625,
+          0.9976907968521118
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block R is placed alone, nothing happens. When block S is placed alone, it lights up. When R and S are placed together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block R",
+          "block S",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006771121174097061,
+          0.0016267994651570916,
+          0.9916021227836609
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block T is placed alone, it lights up. When block U is placed alone, nothing happens. When T and U are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block U",
+          "block T",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.00016752710507716984,
+          0.001173324417322874,
+          0.9986591339111328
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block V is placed alone, nothing happens. When block W is placed alone, it lights up. When V and W are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block V",
+          "block W",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.002105062361806631,
+          0.00457686185836792,
+          0.9933180809020996
+        ]
+      },
+      {
+        "question": "When a blicket is placed on the machine, it lights up the machine. When block Y is placed alone, it lights up. When block Z is placed alone, nothing happens. When Y and Z are together, it lights up. Which block is the blicket?",
+        "choices": [
+          "block Z",
+          "block Y",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0007459403714165092,
+          0.001429104944691062,
+          0.997825026512146
+        ]
+      }
+    ],
+    "simple-causal-analogy": [
+      {
+        "question": "Chocolate melts in the heat. Snowman melts in the heat. What does ice do in the heat?",
+        "choices": [
+          "freezes",
+          "melts",
+          "both freezes and melts"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.004881184082478285,
+          0.9951188564300537,
+          1.7339045754738436e-08
+        ]
+      },
+      {
+        "question": "Butter melts in heat. Wax melts in heat. What does ice do in heat?",
+        "choices": [
+          "freezes",
+          "melts",
+          "both freezes and melts"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01714698038995266,
+          0.9828528761863708,
+          7.443541960583389e-08
+        ]
+      },
+      {
+        "question": "Rain makes the ground wet. A hose makes the ground wet. What does a spilled cup make the floor?",
+        "choices": [
+          "dry",
+          "wet",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.17075800895690918,
+          0.18030652403831482,
+          0.6489354372024536
+        ]
+      },
+      {
+        "question": "A push makes a swing move. A pull makes a swing move. What does a shove do to the swing?",
+        "choices": [
+          "stop it",
+          "make it move",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.35477134585380554,
+          0.4627200961112976,
+          0.18250851333141327
+        ]
+      },
+      {
+        "question": "A key opens a lock. A code opens a lock. What does the right key do?",
+        "choices": [
+          "close it",
+          "open it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1921502649784088,
+          0.06862000375986099,
+          0.7392297387123108
+        ]
+      },
+      {
+        "question": "Warm hands melt snow. Warm sun melts snow. What does warm water do to snow?",
+        "choices": [
+          "freeze it",
+          "melt it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.010957564227283001,
+          0.1819532960653305,
+          0.8070891499519348
+        ]
+      },
+      {
+        "question": "A fan makes the air move. A breeze makes the air move. What does a blower do to the air?",
+        "choices": [
+          "stop it",
+          "move it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5615630745887756,
+          0.0843973308801651,
+          0.35403966903686523
+        ]
+      },
+      {
+        "question": "A bell rings when you hit it. A drum sounds when you hit it. What happens to a cymbal when you hit it?",
+        "choices": [
+          "stays quiet",
+          "makes a sound",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.002038324950262904,
+          0.03069681115448475,
+          0.9672648310661316
+        ]
+      },
+      {
+        "question": "Cold makes water freeze. A freezer makes water freeze. What does ice make water do?",
+        "choices": [
+          "melt",
+          "freeze",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3840520977973938,
+          0.18602849543094635,
+          0.42991945147514343
+        ]
+      },
+      {
+        "question": "Soap makes hands clean. Water makes hands clean. What does soap and water do to hands?",
+        "choices": [
+          "dirty",
+          "clean",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.35424309968948364,
+          0.13934466242790222,
+          0.5064122080802917
+        ]
+      },
+      {
+        "question": "A magnet pulls paper clips. A magnet pulls nails. What does a magnet do to a key?",
+        "choices": [
+          "push it",
+          "pull it",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3287818431854248,
+          0.1942788064479828,
+          0.4769393801689148
+        ]
+      }
+    ],
+    "simple-counterfactual-causal": [
+      {
+        "question": "A doll walked on the floor with muddy shoes and the floor got dirty. If she had taken off her shoes, what would the floor be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6757296919822693,
+          0.32419049739837646,
+          7.975620974320918e-05
+        ]
+      },
+      {
+        "question": "A boy spilled juice and the table got wet. If he had not spilled the juice, what would the table be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5190848708152771,
+          0.4789656102657318,
+          0.001949490513652563
+        ]
+      },
+      {
+        "question": "A girl dropped paint and the floor got messy. If she had not dropped the paint, what would the floor be like?",
+        "choices": [
+          "messy",
+          "clean",
+          "partly messy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5190087556838989,
+          0.48089537024497986,
+          9.592052083462477e-05
+        ]
+      },
+      {
+        "question": "A puppy tracked mud inside and the rug got dirty. If the puppy had stayed outside, what would the rug be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6518306136131287,
+          0.3478953540325165,
+          0.0002739531628321856
+        ]
+      },
+      {
+        "question": "A child knocked over a cup and the carpet got wet. If the cup had not been knocked over, what would the carpet be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5517602562904358,
+          0.44694286584854126,
+          0.0012968926457688212
+        ]
+      },
+      {
+        "question": "A marker leaked and the paper got stained. If the marker had not leaked, what would the paper be like?",
+        "choices": [
+          "stained",
+          "clean",
+          "partly stained"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.49671006202697754,
+          0.5031156539916992,
+          0.0001742443273542449
+        ]
+      },
+      {
+        "question": "A boy left the tap on and the sink overflowed. If he had turned it off, what would the sink be like?",
+        "choices": [
+          "overflowed",
+          "not overflowed",
+          "partly overflowed"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6962500214576721,
+          0.2807968854904175,
+          0.022953176870942116
+        ]
+      },
+      {
+        "question": "A girl stepped in a puddle and the hallway got wet. If she had not stepped in it, what would the hallway be like?",
+        "choices": [
+          "wet",
+          "dry",
+          "partly wet"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6062162518501282,
+          0.39090949296951294,
+          0.002874334342777729
+        ]
+      },
+      {
+        "question": "A toy spilled glitter and the table got sparkly. If it had not spilled, what would the table be like?",
+        "choices": [
+          "sparkly",
+          "not sparkly",
+          "partly sparkly"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9920359253883362,
+          0.007023219019174576,
+          0.0009409274789504707
+        ]
+      },
+      {
+        "question": "A child broke a cookie and crumbs fell. If the cookie had not been broken, what would the floor be like?",
+        "choices": [
+          "full of crumbs",
+          "no crumbs",
+          "some crumbs"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.008801866322755814,
+          0.014533111825585365,
+          0.9766650199890137
+        ]
+      },
+      {
+        "question": "A cat knocked over the plant and the dirt spilled. If the cat had not knocked it over, what would the floor be like?",
+        "choices": [
+          "dirty",
+          "clean",
+          "partly dirty"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6889610886573792,
+          0.3109815716743469,
+          5.741018685512245e-05
+        ]
+      }
+    ],
+    "analogical-problem-solving": [
+      {
+        "question": "Story hint: A farmer moved a huge rock by rolling it on logs. New problem: A child needs to move a heavy box across the floor. What should the child do?",
+        "choices": [
+          "carry the box alone",
+          "roll it on something like logs or wheels",
+          "drag it and roll it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9929075241088867,
+          7.309574279190656e-09,
+          0.0070925187319517136
+        ]
+      },
+      {
+        "question": "Story hint: A child pulled a wagon by using a rope. New problem: A toy boat is stuck on the floor. What should you use?",
+        "choices": [
+          "push it with your hands",
+          "pull it with a string or rope",
+          "push and pull"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.385315865278244,
+          2.2485606677946635e-05,
+          0.614661693572998
+        ]
+      },
+      {
+        "question": "Story hint: A bird got food by pecking a box open. New problem: A child needs to open a sealed snack. What should the child do?",
+        "choices": [
+          "leave it closed",
+          "open it by peeling or picking at the edge",
+          "open it and leave it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9851512312889099,
+          1.554084638755171e-11,
+          0.014848819933831692
+        ]
+      },
+      {
+        "question": "Story hint: A person lifted a heavy lid by using a stick as a lever. New problem: A child needs to lift a heavy board. What should the child do?",
+        "choices": [
+          "lift with bare hands",
+          "use a stick as a lever",
+          "lift and use a stick"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7039369344711304,
+          0.06421162188053131,
+          0.23185144364833832
+        ]
+      },
+      {
+        "question": "Story hint: A cat reached a window by jumping onto a chair. New problem: A small child needs to reach a sink. What should the child do?",
+        "choices": [
+          "stretch only",
+          "stand on a step stool",
+          "stretch and climb"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.12114140391349792,
+          0.04282588139176369,
+          0.8360327482223511
+        ]
+      },
+      {
+        "question": "Story hint: A car crossed a muddy area by using a bridge. New problem: A toy truck needs to cross a puddle. What should it do?",
+        "choices": [
+          "drive through the water",
+          "use a bridge or plank",
+          "drive and bridge"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9987010955810547,
+          1.611343577678781e-05,
+          0.00128283747471869
+        ]
+      },
+      {
+        "question": "Story hint: A person moved a heavy couch by sliding it on a blanket. New problem: A child needs to move a heavy box. What should the child do?",
+        "choices": [
+          "carry it alone",
+          "slide it on a blanket",
+          "carry and slide"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9523106217384338,
+          0.04765927791595459,
+          3.012969136761967e-05
+        ]
+      },
+      {
+        "question": "Story hint: A boy kept his lunch cold by putting it in a cooler. New problem: A girl wants to keep her juice cold. What should she do?",
+        "choices": [
+          "leave it in the sun",
+          "put it in a cooler or with ice",
+          "leave it and cool it"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.999904990196228,
+          1.4713650671183132e-06,
+          9.359677642351016e-05
+        ]
+      },
+      {
+        "question": "Story hint: A rabbit escaped by going through a tunnel. New problem: A toy car is trapped behind a fence. What should you do?",
+        "choices": [
+          "push it through the fence",
+          "go under or through a tunnel",
+          "push and dig"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9891553521156311,
+          0.00045267678797245026,
+          0.010391924530267715
+        ]
+      },
+      {
+        "question": "Story hint: A swimmer used goggles to see underwater. New problem: A child wants to see underwater in the pool. What should the child use?",
+        "choices": [
+          "close eyes",
+          "use goggles",
+          "use goggles and close eyes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.9960969090461731,
+          0.003902616910636425,
+          4.975505589754903e-07
+        ]
+      },
+      {
+        "question": "Story hint: A worker moved boxes by stacking them on a cart. New problem: A child needs to move many toys. What should the child do?",
+        "choices": [
+          "carry one at a time",
+          "use a cart or box to carry many",
+          "carry and use a cart"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.999818742275238,
+          2.390079106850962e-11,
+          0.00018125417409464717
+        ]
+      }
+    ],
+    "class-inclusion-wording": [
+      {
+        "question": "In this set there are 3 dogs and 2 cats. Are there more dogs or more animals in this set?",
+        "choices": [
+          "more dogs",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0060264780186116695,
+          0.03356539458036423,
+          0.9604081511497498
+        ]
+      },
+      {
+        "question": "There are 4 apples and 1 banana. Are there more apples or more fruit?",
+        "choices": [
+          "more apples",
+          "more fruit",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.016473792493343353,
+          0.011041085235774517,
+          0.9724851250648499
+        ]
+      },
+      {
+        "question": "There are 2 trucks and 3 cars. Are there more trucks or more vehicles?",
+        "choices": [
+          "more trucks",
+          "more vehicles",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.007270262110978365,
+          0.0025095371529459953,
+          0.9902201890945435
+        ]
+      },
+      {
+        "question": "There are 5 birds and 2 fish. Are there more birds or more animals?",
+        "choices": [
+          "more birds",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.017303964123129845,
+          0.010304044000804424,
+          0.9723920226097107
+        ]
+      },
+      {
+        "question": "There are 6 socks and 1 hat. Are there more socks or more clothes?",
+        "choices": [
+          "more socks",
+          "more clothes",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006164015270769596,
+          0.007625987753272057,
+          0.9862100481987
+        ]
+      },
+      {
+        "question": "There are 3 roses and 2 tulips. Are there more roses or more flowers?",
+        "choices": [
+          "more roses",
+          "more flowers",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0017620170256122947,
+          0.05370431765913963,
+          0.9445337057113647
+        ]
+      },
+      {
+        "question": "There are 1 cookie and 4 crackers. Are there more cookies or more snacks?",
+        "choices": [
+          "more cookies",
+          "more snacks",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0005876423674635589,
+          5.1040526159340516e-05,
+          0.9993613362312317
+        ]
+      },
+      {
+        "question": "There are 2 frogs and 2 lizards. Are there more frogs or more animals?",
+        "choices": [
+          "more frogs",
+          "more animals",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.02939511649310589,
+          0.0032099478412419558,
+          0.9673948884010315
+        ]
+      },
+      {
+        "question": "There are 7 crayons and 1 marker. Are there more crayons or more art tools?",
+        "choices": [
+          "more crayons",
+          "more art tools",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0027108825743198395,
+          4.561666600011449e-08,
+          0.9972890615463257
+        ]
+      },
+      {
+        "question": "There are 3 cups and 3 plates. Are there more cups or more dishes?",
+        "choices": [
+          "more cups",
+          "more dishes",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.004079457838088274,
+          0.0018293141620233655,
+          0.9940912127494812
+        ]
+      },
+      {
+        "question": "There are 2 kittens and 4 puppies. Are there more kittens or more pets?",
+        "choices": [
+          "more kittens",
+          "more pets",
+          "the same number"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01817757822573185,
+          0.001193580450490117,
+          0.9806288480758667
+        ]
+      }
+    ],
+    "conservation-of-number-accidental": [
+      {
+        "question": "There are two rows of 5 checkers each. A teddy accidentally spreads one row out. Are there more checkers in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          1.165960297061508e-11,
+          0.9624682068824768,
+          0.03753182664513588
+        ]
+      },
+      {
+        "question": "There are two rows of 4 coins each. A puppy bumps one row and spreads it out. Are there more coins in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          5.940461664244445e-12,
+          0.9734475016593933,
+          0.026552528142929077
+        ]
+      },
+      {
+        "question": "There are two rows of 6 buttons each. A child accidentally spreads one row. Are there more buttons in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          7.22982715362086e-11,
+          0.9904413223266602,
+          0.009558695368468761
+        ]
+      },
+      {
+        "question": "There are two rows of 3 blocks each. A cat nudges one row and it spreads out. Are there more blocks in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          8.676354773529127e-12,
+          0.9871469736099243,
+          0.012853004038333893
+        ]
+      },
+      {
+        "question": "There are two rows of 7 beads each. A teddy bumps one row and it spreads. Are there more beads in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          5.4774410701563525e-11,
+          0.9615678191184998,
+          0.03843216598033905
+        ]
+      },
+      {
+        "question": "There are two rows of 5 shells each. A baby pushes one row and it spreads out. Are there more shells in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          7.230195608887158e-12,
+          0.9802549481391907,
+          0.019745083525776863
+        ]
+      },
+      {
+        "question": "There are two rows of 8 stars each. A child bumps one row and it spreads. Are there more stars in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          5.402068375959246e-11,
+          0.9745283126831055,
+          0.025471730157732964
+        ]
+      },
+      {
+        "question": "There are two rows of 2 cups each. A dog bumps one row and it spreads. Are there more cups in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          3.1114895382433616e-11,
+          0.9499556422233582,
+          0.05004436895251274
+        ]
+      },
+      {
+        "question": "There are two rows of 9 stickers each. A kid accidentally spreads one row. Are there more stickers in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          1.7771848229153342e-11,
+          0.9896050691604614,
+          0.01039487961679697
+        ]
+      },
+      {
+        "question": "There are two rows of 10 pebbles each. A hand slips and spreads one row. Are there more pebbles in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          9.749733659303317e-11,
+          0.946169912815094,
+          0.053830064833164215
+        ]
+      },
+      {
+        "question": "There are two rows of 1 button each. A breeze spreads one row. Are there more buttons in the spread-out row or the same number?",
+        "choices": [
+          "more in the spread-out row",
+          "the same number",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          3.128212272551778e-11,
+          0.9891272187232971,
+          0.010872826911509037
+        ]
+      }
+    ],
+    "violation-of-expectation-false-belief": [
+      {
+        "question": "An actor watches a toy go into a green box, then leaves. While she is gone, the toy is moved to a yellow box. When she returns, which box will she open first?",
+        "choices": [
+          "yellow box",
+          "green box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.5854272246360779,
+          0.41100913286209106,
+          0.003563683247193694
+        ]
+      },
+      {
+        "question": "A girl watches a toy go into a blue box, then leaves. While she is gone, the toy is moved to a red box. When she returns, which box will she open first?",
+        "choices": [
+          "red box",
+          "blue box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3186509311199188,
+          0.6789049506187439,
+          0.002444150857627392
+        ]
+      },
+      {
+        "question": "A boy sees a cookie go into a tin, then leaves. It is moved to a jar. When he comes back, which container will he open first?",
+        "choices": [
+          "jar",
+          "tin",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.11284122616052628,
+          0.34030672907829285,
+          0.5468520522117615
+        ]
+      },
+      {
+        "question": "A mom sees a book go into a bag, then steps out. It is moved to a drawer. When she returns, which place will she check first?",
+        "choices": [
+          "drawer",
+          "bag",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.006219575647264719,
+          0.3555683493614197,
+          0.6382121443748474
+        ]
+      },
+      {
+        "question": "A child sees a ball go into a bucket, then leaves. It is moved to a basket. When the child returns, which will be opened first?",
+        "choices": [
+          "basket",
+          "bucket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09235230088233948,
+          0.08598950505256653,
+          0.8216581344604492
+        ]
+      },
+      {
+        "question": "A teacher sees a pencil go into a cup, then leaves. It is moved to a box. When she returns, which container will she open first?",
+        "choices": [
+          "box",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.16479861736297607,
+          0.2913092076778412,
+          0.5438922047615051
+        ]
+      },
+      {
+        "question": "A kid sees a marble go into a green bowl, then leaves. It is moved to a yellow bowl. When the kid returns, which bowl will be opened first?",
+        "choices": [
+          "yellow bowl",
+          "green bowl",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2460637390613556,
+          0.38898515701293945,
+          0.36495107412338257
+        ]
+      },
+      {
+        "question": "A dad sees a toy go into a backpack, then leaves. It is moved to a drawer. When he returns, where will he look first?",
+        "choices": [
+          "drawer",
+          "backpack",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0010137415956705809,
+          0.674005925655365,
+          0.32498037815093994
+        ]
+      },
+      {
+        "question": "A sister sees a ring go into a purse, then leaves. It is moved to a box. When she returns, which will she open first?",
+        "choices": [
+          "box",
+          "purse",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1727360635995865,
+          0.17527344822883606,
+          0.6519904732704163
+        ]
+      },
+      {
+        "question": "A boy sees a toy go into a chest, then leaves. It is moved to a shelf. When he returns, which place will he check first?",
+        "choices": [
+          "shelf",
+          "chest",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.021055033430457115,
+          0.24022214114665985,
+          0.7387228608131409
+        ]
+      },
+      {
+        "question": "A girl sees a snack go into a drawer, then leaves. It is moved to a cabinet. When she returns, which will she open first?",
+        "choices": [
+          "cabinet",
+          "drawer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.15819686651229858,
+          0.013764182105660439,
+          0.8280389904975891
+        ]
+      }
+    ],
+    "exploratory-play-causal": [
+      {
+        "question": "A toy lights up sometimes, but you are not sure which buttons cause it. What is a good way to find out?",
+        "choices": [
+          "press all buttons at once",
+          "test one button at a time",
+          "press all and one at a time"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.002384327817708254,
+          0.9429094195365906,
+          0.05470623821020126
+        ]
+      },
+      {
+        "question": "A box makes sounds, but you are not sure which button works. What is a good way to find out?",
+        "choices": [
+          "press all buttons at once",
+          "test one button at a time",
+          "press all and one at a time"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0016835681162774563,
+          0.984782874584198,
+          0.013533612713217735
+        ]
+      },
+      {
+        "question": "A toy sometimes lights up and you want to know which switch does it. What should you do?",
+        "choices": [
+          "flip all switches together",
+          "try one switch at a time",
+          "flip all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0019566710107028484,
+          0.808032214641571,
+          0.190011128783226
+        ]
+      },
+      {
+        "question": "A music toy has three keys and you want to know which key makes the sound. What should you do?",
+        "choices": [
+          "press all keys",
+          "press one key at a time",
+          "press all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.577157735824585,
+          0.2800379991531372,
+          0.14280425012111664
+        ]
+      },
+      {
+        "question": "A bubble toy has three buttons and you want to know which makes bubbles. What should you do?",
+        "choices": [
+          "press all buttons",
+          "press one button at a time",
+          "press all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7979390025138855,
+          0.12448187917470932,
+          0.07757923752069473
+        ]
+      },
+      {
+        "question": "A light box has four sliders and you want to know which slider turns it on. What should you do?",
+        "choices": [
+          "move all sliders",
+          "move one slider at a time",
+          "move all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.0022581384982913733,
+          0.001173416618257761,
+          0.9965684413909912
+        ]
+      },
+      {
+        "question": "A wind toy has two levers and you want to know which starts the wind. What should you do?",
+        "choices": [
+          "pull both levers",
+          "pull one lever at a time",
+          "pull both and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2901507019996643,
+          0.018062444403767586,
+          0.6917868256568909
+        ]
+      },
+      {
+        "question": "A pop-up toy has three knobs and you want to know which makes it pop. What should you do?",
+        "choices": [
+          "turn all knobs",
+          "turn one knob at a time",
+          "turn all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.7163810133934021,
+          0.0717303529381752,
+          0.21188868582248688
+        ]
+      },
+      {
+        "question": "A toy has four doors and you want to know which door hides the sound button. What should you do?",
+        "choices": [
+          "open all doors",
+          "open one door at a time",
+          "open all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.6963876485824585,
+          0.2991848587989807,
+          0.004427475854754448
+        ]
+      },
+      {
+        "question": "A rattle has two parts and you want to know which part makes noise. What should you do?",
+        "choices": [
+          "shake both parts together",
+          "shake one part at a time",
+          "shake both and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.011622631922364235,
+          0.6847642064094543,
+          0.30361315608024597
+        ]
+      },
+      {
+        "question": "A toy has three pedals and you want to know which pedal starts the light. What should you do?",
+        "choices": [
+          "step on all pedals",
+          "step on one pedal at a time",
+          "step on all and one"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.029277393594384193,
+          0.00021898433624301106,
+          0.970503568649292
+        ]
+      }
+    ],
+    "false-belief-vignette-battery": [
+      {
+        "question": "A child opens a candy box and finds pencils inside. Later, another child who has not seen inside the box comes in. What will the second child think is in the box?",
+        "choices": [
+          "pencils",
+          "candy",
+          "both pencils and candy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1319497674703598,
+          0.8680500984191895,
+          1.2700027696155303e-07
+        ]
+      },
+      {
+        "question": "A child opens a toy egg and finds a rock inside. Another child who has not seen inside comes in. What will the second child think is in the egg?",
+        "choices": [
+          "rock",
+          "a toy",
+          "both rock and toy"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.2064671814441681,
+          0.7935321927070618,
+          6.788325777051796e-07
+        ]
+      },
+      {
+        "question": "A child opens a juice box and finds crayons inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "crayons",
+          "juice",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24596291780471802,
+          0.630303680896759,
+          0.12373336404561996
+        ]
+      },
+      {
+        "question": "A child opens a chip bag and finds socks inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+        "choices": [
+          "socks",
+          "chips",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.46602264046669006,
+          0.2035294622182846,
+          0.33044788241386414
+        ]
+      },
+      {
+        "question": "A child opens a cookie tin and finds buttons inside. Another child who has not seen inside comes in. What will the second child think is in the tin?",
+        "choices": [
+          "buttons",
+          "cookies",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.09221238642930984,
+          0.18765993416309357,
+          0.7201277017593384
+        ]
+      },
+      {
+        "question": "A child opens a cereal box and finds blocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "blocks",
+          "cereal",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1394982486963272,
+          0.15772375464439392,
+          0.7027780413627625
+        ]
+      },
+      {
+        "question": "A child opens a gift box and finds rocks inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "rocks",
+          "a gift",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.005111249163746834,
+          0.9244470596313477,
+          0.0704418271780014
+        ]
+      },
+      {
+        "question": "A child opens a snack jar and finds paper inside. Another child who has not seen inside comes in. What will the second child think is in the jar?",
+        "choices": [
+          "paper",
+          "snacks",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3848232328891754,
+          0.24649222195148468,
+          0.3686845004558563
+        ]
+      },
+      {
+        "question": "A child opens a milk carton and finds toys inside. Another child who has not seen inside comes in. What will the second child think is in the carton?",
+        "choices": [
+          "toys",
+          "milk",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.1265614777803421,
+          0.592826247215271,
+          0.28061220049858093
+        ]
+      },
+      {
+        "question": "A child opens a candy bag and finds coins inside. Another child who has not seen inside comes in. What will the second child think is in the bag?",
+        "choices": [
+          "coins",
+          "candy",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.06638406217098236,
+          0.6170641779899597,
+          0.3165518045425415
+        ]
+      },
+      {
+        "question": "A child opens a pencil box and finds stickers inside. Another child who has not seen inside comes in. What will the second child think is in the box?",
+        "choices": [
+          "stickers",
+          "pencils",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.4250430166721344,
+          0.20068690180778503,
+          0.37427014112472534
+        ]
+      }
+    ],
+    "false-belief-unexpected-transfer": [
+      {
+        "question": "Sally puts her marble in a basket and leaves. Anne moves the marble to a box while Sally is gone. When Sally returns, where will she look for the marble first?",
+        "choices": [
+          "the box",
+          "the basket",
+          "both places"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8692930936813354,
+          0.13067349791526794,
+          3.33808311552275e-05
+        ]
+      },
+      {
+        "question": "Maya puts her doll in a pink box and leaves. Eli moves it to a blue box. When Maya comes back, where will she look first?",
+        "choices": [
+          "blue box",
+          "pink box",
+          "both boxes"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.8111552000045776,
+          0.18808220326900482,
+          0.0007625669823028147
+        ]
+      },
+      {
+        "question": "Liam puts his truck in a basket and leaves. It is moved to a shelf. When Liam returns, where will he look first?",
+        "choices": [
+          "shelf",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.03389621153473854,
+          0.1508091688156128,
+          0.815294623374939
+        ]
+      },
+      {
+        "question": "Emma puts her book in a bag and leaves. It is moved to a drawer. When she comes back, where will she look first?",
+        "choices": [
+          "drawer",
+          "bag",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.007677572313696146,
+          0.2989673912525177,
+          0.6933549642562866
+        ]
+      },
+      {
+        "question": "Jack puts his marble in a cup and leaves. It is moved to a bowl. When Jack returns, where will he look first?",
+        "choices": [
+          "bowl",
+          "cup",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.06921368837356567,
+          0.09001762419939041,
+          0.8407686948776245
+        ]
+      },
+      {
+        "question": "Ava puts her sticker in a box and leaves. It is moved to a backpack. When Ava returns, where will she look first?",
+        "choices": [
+          "backpack",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.723120927810669,
+          0.030921805649995804,
+          0.24595725536346436
+        ]
+      },
+      {
+        "question": "Noah puts his ball in a drawer and leaves. It is moved to a bin. When Noah returns, where will he look first?",
+        "choices": [
+          "bin",
+          "drawer",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.22448758780956268,
+          0.005831405986100435,
+          0.7696810364723206
+        ]
+      },
+      {
+        "question": "Olivia puts her ring in a purse and leaves. It is moved to a pocket. When Olivia returns, where will she look first?",
+        "choices": [
+          "pocket",
+          "purse",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.3128097653388977,
+          0.12101227790117264,
+          0.5661779642105103
+        ]
+      },
+      {
+        "question": "Ethan puts his toy in a chest and leaves. It is moved to a closet. When Ethan returns, where will he look first?",
+        "choices": [
+          "closet",
+          "chest",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.026347089558839798,
+          0.17530310153961182,
+          0.7983497977256775
+        ]
+      },
+      {
+        "question": "Sophia puts her hat in a basket and leaves. It is moved to a chair. When Sophia returns, where will she look first?",
+        "choices": [
+          "chair",
+          "basket",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.24345910549163818,
+          0.061460137367248535,
+          0.6950806975364685
+        ]
+      },
+      {
+        "question": "Mason puts his toy in a box and leaves. It is moved to a shelf. When Mason returns, where will he look first?",
+        "choices": [
+          "shelf",
+          "box",
+          "both"
+        ],
+        "answer_index": 1,
+        "choice_probabilities": [
+          0.01829509809613228,
+          0.14295922219753265,
+          0.8387457132339478
+        ]
+      }
+    ]
+  }
+}
